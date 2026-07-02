@@ -1,3 +1,6 @@
+DROP TABLE IF EXISTS daily_brief_relation;
+DROP TABLE IF EXISTS daily_brief_item;
+DROP TABLE IF EXISTS daily_brief;
 DROP TABLE IF EXISTS graph_relation;
 DROP TABLE IF EXISTS timeline_event;
 DROP TABLE IF EXISTS prompt_record;
@@ -85,6 +88,46 @@ CREATE TABLE timeline_event (
     created_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+
+CREATE TABLE daily_brief (
+    id BIGSERIAL PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    brief_date DATE NOT NULL,
+    type VARCHAR(100),
+    category VARCHAR(100),
+    tags JSONB DEFAULT '[]'::jsonb,
+    summary TEXT,
+    source VARCHAR(100),
+    status VARCHAR(50) DEFAULT 'published',
+    file_path VARCHAR(500),
+    content TEXT,
+    created_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE daily_brief_item (
+    id BIGSERIAL PRIMARY KEY,
+    brief_id BIGINT NOT NULL REFERENCES daily_brief(id),
+    title VARCHAR(255) NOT NULL,
+    source_name VARCHAR(100),
+    source_url TEXT,
+    category VARCHAR(100),
+    importance INT DEFAULT 3,
+    summary TEXT,
+    analysis TEXT,
+    tags JSONB DEFAULT '[]'::jsonb,
+    created_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE daily_brief_relation (
+    id BIGSERIAL PRIMARY KEY,
+    brief_id BIGINT NOT NULL REFERENCES daily_brief(id),
+    target_type VARCHAR(50) NOT NULL,
+    target_id BIGINT NOT NULL,
+    relation_type VARCHAR(50) NOT NULL,
+    created_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
 INSERT INTO project_record (id, name, summary, description, status, priority, tags) VALUES
 (1, '个人知识图谱网站', '沉淀个人知识、问题、项目与 Prompt。', '前后端分离的个人知识管理系统。', 'developing', 1, '["知识管理","Vue","SpringBoot"]'),
 (2, '智能测试平台', '沉淀测试开发实践。', '面向自动化测试、数据准备、报告分析的长期项目。', 'planning', 2, '["测试开发","AI Testing"]');
@@ -108,3 +151,8 @@ INSERT INTO graph_relation (source_type, source_id, target_type, target_id, rela
 
 INSERT INTO timeline_event (title, content, event_type, event_date, related_project_id, related_knowledge_id) VALUES
 ('个人知识图谱网站启动', '完成需求拆解和 MVP 模块规划。', 'milestone', CURRENT_DATE, 1, 3);
+
+
+INSERT INTO daily_brief (id, title, brief_date, type, category, tags, summary, source, status, file_path, content) VALUES
+(1, 'AI Testing Daily Brief', '2026-06-29', 'ai-testing', 'AI Testing', '["AI Testing","Codex","Agent","MCP"]', '今日 AI Testing 与 Agent 生态重点动态。', 'ChatGPT', 'published', 'ai-testing/2026/06/2026-06-29.md', '# AI Testing Daily Brief\n\n## 今日重点\n\n- Codex 与 Agent 工作流持续进入测试开发链路。\n- MCP 生态适合沉淀工具调用能力。'),
+(2, 'AI Tech Daily Brief', '2026-06-29', 'ai-tech', 'AI Tech', '["AI","LLM","Developer Tools"]', '今日 AI 技术行业重点动态。', 'ChatGPT', 'published', 'ai-tech/2026/06/2026-06-29.md', '# AI Tech Daily Brief\n\n## 今日重点\n\n- AI 开发工具继续强调上下文工程。\n- 本地知识库适合沉淀每日技术情报。');

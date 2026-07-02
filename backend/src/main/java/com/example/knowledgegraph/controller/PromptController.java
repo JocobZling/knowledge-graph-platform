@@ -1,4 +1,4 @@
-﻿package com.example.knowledgegraph.controller;
+package com.example.knowledgegraph.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.example.knowledgegraph.common.ApiResponse;

@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-06-29",
+    "title": "AI Testing Daily Brief",
+    "file": "ai-testing/2026/06/2026-06-29.md",
+    "type": "ai-testing",
+    "category": "AI Testing",
+    "tags": ["AI Testing", "Codex", "Agent", "MCP"],
+    "summary": "今日 AI Testing 与 Agent 生态重点动态。",
+    "source": "ChatGPT",
+    "status": "published"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "AI Tech Daily Brief",
+    "file": "ai-tech/2026/06/2026-06-29.md",
+    "type": "ai-tech",
+    "category": "AI Tech",
+    "tags": ["AI", "LLM", "Developer Tools"],
+    "summary": "今日 AI 技术行业重点动态。",
+    "source": "ChatGPT",
+    "status": "published"
+  }
+]

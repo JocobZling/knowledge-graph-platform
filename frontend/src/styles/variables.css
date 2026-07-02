@@ -1,0 +1,16 @@
+:root {
+  --color-primary: #2563eb;
+  --color-primary-soft: #dbeafe;
+  --color-background: #f8fafc;
+  --color-card: #ffffff;
+  --color-text: #0f172a;
+  --color-text-muted: #64748b;
+  --color-border: #e2e8f0;
+  --color-success: #16a34a;
+  --color-warning: #d97706;
+  --color-danger: #dc2626;
+  --radius-card: 12px;
+  --space-page: 28px;
+  --space-card: 20px;
+  --shadow-card: 0 1px 2px rgba(15, 23, 42, 0.04);
+}

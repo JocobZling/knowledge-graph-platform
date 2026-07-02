@@ -62,3 +62,46 @@ npm run dev
 - API 文档：`docs/api.md`
 - 数据库脚本与示例数据：`docs/database.sql`
 - MVP 需求摘要：`docs/requirement.md`
+
+
+## Daily Brief 日报模块
+
+Daily Brief 是本项目的情报中心，用于归档每天生成的 AI、测试开发、Agent 生态和技术行业日报。
+
+### Markdown 目录
+
+示例文件位于：
+
+```text
+daily/ai-testing/2026/06/2026-06-29.md
+daily/ai-tech/2026/06/2026-06-29.md
+```
+
+每篇 Markdown 建议包含 Front Matter：`title`、`date`、`type`、`category`、`tags`、`summary`、`source`、`status`。
+
+### 数据库初始化
+
+重新执行：
+
+```bash
+psql -U postgres -d knowledge_graph -f docs/database.sql
+```
+
+### 同步日报
+
+后端启动后调用：
+
+```bash
+curl -X POST http://localhost:8080/api/daily-brief/sync
+```
+
+同步会扫描 `daily/` 目录并解析 Markdown Front Matter；同一天同 type 重复执行会更新，不会重复插入。
+
+### 前端入口
+
+```text
+http://localhost:5173/daily
+http://localhost:5173/daily/:id
+```
+
+如果后端没有启动，前端会使用 `frontend/public/daily-reports/` 中的本地 Markdown 示例作为预览数据。
