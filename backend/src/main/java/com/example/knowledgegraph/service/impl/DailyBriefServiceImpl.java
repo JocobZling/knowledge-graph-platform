@@ -117,6 +117,7 @@ public class DailyBriefServiceImpl extends ServiceImpl<DailyBriefMapper, DailyBr
         incoming.setUpdatedTime(now);
         if (existing == null) {
             incoming.setCreatedTime(now);
+            baseMapper.syncIdSequence();
             save(incoming);
         } else {
             incoming.setId(existing.getId());

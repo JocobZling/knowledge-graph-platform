@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <section class="page page-stack">
     <PageHeader :title="brief?.title || '情报详情'" eyebrow="Intelligence Detail" :description="brief?.summary || '阅读 Markdown 情报详情。'">
       <template #actions>
@@ -8,7 +8,7 @@
 
     <BaseCard v-loading="loading">
       <EmptyState v-if="!loading && !brief" title="情报不存在" description="这篇情报可能尚未同步或已归档。" />
-      <article v-else class="daily-detail">
+      <article v-else-if="brief" class="daily-detail">
         <div class="daily-detail__meta">
           <span>{{ brief.briefDate || brief.date }}</span>
           <span>{{ brief.type }}</span>
