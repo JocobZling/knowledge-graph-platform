@@ -9,11 +9,8 @@
     <BaseCard>
       <div class="daily-filter">
         <el-input v-model="filters.keyword" placeholder="搜索标题、摘要、标签或正文" clearable @keyup.enter="loadBriefs" />
-        <el-select v-model="filters.type" placeholder="类型" clearable>
-          <el-option v-for="item in typeOptions" :key="item" :label="item" :value="item" />
-        </el-select>
-        <el-select v-model="filters.category" placeholder="分类" clearable>
-          <el-option v-for="item in categoryOptions" :key="item" :label="item" :value="item" />
+        <el-select v-model="filters.topic" placeholder="主题" clearable>
+          <el-option v-for="item in topicOptions" :key="item.value" :label="item.label" :value="item.value" />
         </el-select>
         <el-select v-model="filters.tag" placeholder="标签" clearable>
           <el-option v-for="item in tagOptions" :key="item" :label="item" :value="item" />
@@ -45,31 +42,28 @@ const loading = ref(false)
 const usingLocalFallback = ref(false)
 const filters = reactive({
   keyword: '',
-  type: '',
-  category: '',
+  topic: '',
   tag: '',
   dateRange: []
 })
 
 const filteredBriefs = computed(() => {
-  if (!usingLocalFallback.value) return briefs.value
   const keyword = filters.keyword.trim().toLowerCase()
   const [startDate, endDate] = filters.dateRange || []
   return briefs.value.filter((brief) => {
     const date = brief.briefDate || brief.date
     const tags = normalizeTags(brief.tags)
-    const haystack = [brief.title, brief.summary, brief.content, brief.type, brief.category, ...tags].join(' ').toLowerCase()
+    const topics = unique([brief.type, brief.category].filter(Boolean))
+    const haystack = [brief.title, brief.summary, brief.content, ...topics, ...tags].join(' ').toLowerCase()
     return (!keyword || haystack.includes(keyword))
-      && (!filters.type || brief.type === filters.type)
-      && (!filters.category || brief.category === filters.category)
+      && (!filters.topic || topics.some((topic) => normalizeOptionKey(topic) === filters.topic))
       && (!filters.tag || tags.includes(filters.tag))
       && (!startDate || date >= startDate)
       && (!endDate || date <= endDate)
   })
 })
 
-const typeOptions = computed(() => unique(briefs.value.map((brief) => brief.type).filter(Boolean)))
-const categoryOptions = computed(() => unique(briefs.value.map((brief) => brief.category).filter(Boolean)))
+const topicOptions = computed(() => uniqueOptions(briefs.value.flatMap((brief) => [brief.type, brief.category].filter(Boolean))))
 const tagOptions = computed(() => unique(briefs.value.flatMap((brief) => normalizeTags(brief.tags))))
 
 async function loadBriefs() {
@@ -80,8 +74,6 @@ async function loadBriefs() {
     briefs.value = await http.get('/daily-brief/list', {
       params: {
         keyword: filters.keyword || undefined,
-        type: filters.type || undefined,
-        category: filters.category || undefined,
         tag: filters.tag || undefined,
         startDate,
         endDate
@@ -124,6 +116,38 @@ function normalizeTags(tags) {
 
 function unique(values) {
   return [...new Set(values)]
+}
+
+function uniqueOptions(values) {
+  const options = new Map()
+  values.forEach((value) => {
+    const label = String(value || '').trim()
+    if (!label) return
+    const key = normalizeOptionKey(label)
+    const current = options.get(key)
+    if (!current || scoreOptionLabel(label) > scoreOptionLabel(current.label)) {
+      options.set(key, { label: formatOptionLabel(label), value: key })
+    }
+  })
+  return [...options.values()]
+}
+
+function normalizeOptionKey(value) {
+  return String(value || '').trim().toLowerCase().replace(/[\s_-]+/g, '')
+}
+
+function formatOptionLabel(value) {
+  const text = String(value || '').trim()
+  if (!text) return ''
+  if (!/[A-Z]/.test(text)) {
+    return text.split(/[\s_-]+/).filter(Boolean).map((word) => word.toUpperCase() === 'AI' ? 'AI' : word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
+  }
+  return text.replace(/[-_]+/g, ' ')
+}
+
+function scoreOptionLabel(value) {
+  const text = String(value || '')
+  return (/[A-Z]/.test(text) ? 2 : 0) + (/[-_]/.test(text) ? 0 : 1)
 }
 
 onMounted(loadBriefs)

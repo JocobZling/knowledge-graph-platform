@@ -4,12 +4,10 @@
       <span>{{ brief.briefDate || brief.date }}</span>
       <StatusTag :value="brief.status || 'published'" />
     </div>
-    <h3>{{ brief.title }}</h3>
     <p>{{ brief.summary || '暂无摘要' }}</p>
     <div class="daily-card__footer">
-      <span>{{ brief.category || brief.type || 'daily' }}</span>
       <span class="report-tags">
-        <StatusTag v-for="tag in normalizedTags" :key="tag" :value="tag" />
+        <StatusTag v-for="tag in displayTags" :key="tag" :value="tag" />
       </span>
     </div>
   </RouterLink>
@@ -24,13 +22,31 @@ const props = defineProps({
   brief: { type: Object, required: true }
 })
 
-const normalizedTags = computed(() => {
-  if (Array.isArray(props.brief.tags)) return props.brief.tags
-  if (!props.brief.tags) return []
+const displayTags = computed(() => uniqueTags([
+  props.brief.category,
+  props.brief.type,
+  ...normalizeTags(props.brief.tags)
+]))
+
+function normalizeTags(tags) {
+  if (Array.isArray(tags)) return tags
+  if (!tags) return []
   try {
-    return JSON.parse(props.brief.tags)
+    return JSON.parse(tags)
   } catch {
-    return String(props.brief.tags).split(',').map((tag) => tag.trim()).filter(Boolean)
+    return String(tags).split(',').map((tag) => tag.trim()).filter(Boolean)
   }
-})
+}
+
+function uniqueTags(tags) {
+  const seen = new Set()
+  return tags.filter((tag) => {
+    const text = String(tag || '').trim()
+    if (!text) return false
+    const key = text.toLowerCase().replace(/[\s_-]+/g, '')
+    if (seen.has(key)) return false
+    seen.add(key)
+    return true
+  })
+}
 </script>
