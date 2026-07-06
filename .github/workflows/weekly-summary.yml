@@ -1,0 +1,53 @@
+name: Weekly Conversation Summary
+
+on:
+  schedule:
+    # 每周日 09:30 Asia/Shanghai = 每周日 01:30 UTC
+    - cron: "30 1 * * 0"
+  workflow_dispatch:
+    inputs:
+      source_content:
+        description: "本周对话原始内容/要点，可手动粘贴。留空则读取 data/weekly-summary-source.md"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  generate-weekly-summary:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install openai
+
+      - name: Generate weekly summary markdown
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          SOURCE_CONTENT: ${{ github.event.inputs.source_content }}
+          TZ: Asia/Shanghai
+        run: |
+          python scripts/generate_weekly_summary.py
+
+      - name: Commit and push weekly summary
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add daily/weekly-summary/
+          if git diff --cached --quiet; then
+            echo "No weekly summary changes to commit."
+          else
+            git commit -m "docs: add weekly conversation summary"
+            git push
+          fi
