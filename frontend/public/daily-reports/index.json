@@ -1,24 +1,158 @@
 [
-  {
-    "date": "2026-06-29",
-    "title": "AI Testing Daily Brief",
-    "file": "ai-testing/2026/06/2026-06-29.md",
-    "type": "ai-testing",
-    "category": "AI Testing",
-    "tags": ["AI Testing", "Codex", "Agent", "MCP"],
-    "summary": "今日 AI Testing 与 Agent 生态重点动态。",
-    "source": "ChatGPT",
-    "status": "published"
-  },
-  {
-    "date": "2026-06-29",
-    "title": "AI Tech Daily Brief",
-    "file": "ai-tech/2026/06/2026-06-29.md",
-    "type": "ai-tech",
-    "category": "AI Tech",
-    "tags": ["AI", "LLM", "Developer Tools"],
-    "summary": "今日 AI 技术行业重点动态。",
-    "source": "ChatGPT",
-    "status": "published"
-  }
+    {
+        "date":  "2026-07-06",
+        "title":  "AI Testing Daily Brief",
+        "file":  "ai-testing/2026/07/2026-07-06-ai-testing.md",
+        "type":  "ai-testing",
+        "category":  "AI Testing",
+        "tags":  [
+                     "AI Testing",
+                     "Agent Testing",
+                     "LLM Testing",
+                     "MCP",
+                     "Developer Tools"
+                 ],
+        "summary":  "智能测试正在从脚本生成转向浏览器 Agent、MCP 安全治理与可审查测试计划工作流。",
+        "source":  "ChatGPT",
+        "status":  "published"
+    },
+    {
+        "date":  "2026-07-05",
+        "title":  "AI Tech Daily Brief",
+        "file":  "ai-tech/2026/07/2026-07-05-ai-tech.md",
+        "type":  "ai-tech",
+        "category":  "AI Tech",
+        "tags":  [
+                     "AI",
+                     "LLM",
+                     "Agent",
+                     "MCP",
+                     "Tool Calling",
+                     "AI Infrastructure",
+                     "Agent Security",
+                     "Intelligent Testing"
+                 ],
+        "summary":  "AI 行业正在从模型能力竞争，转向前沿模型治理、AI 基础设施可落地性，以及 Agent 执行动作的安全治理。",
+        "source":  "ChatGPT",
+        "status":  "published"
+    },
+    {
+        "date":  "2026-07-05",
+        "title":  "AI Testing Daily Brief",
+        "file":  "ai-testing/2026/07/2026-07-05-ai-testing.md",
+        "type":  "ai-testing",
+        "category":  "AI Testing",
+        "tags":  [
+                     "AI Testing",
+                     "Agent Testing",
+                     "LLM Testing",
+                     "MCP",
+                     "Developer Tools"
+                 ],
+        "summary":  "智能测试继续从测试脚本生成走向可审查的 Agent 工作流、浏览器工具调用和 MCP 安全治理。",
+        "source":  "ChatGPT",
+        "status":  "published"
+    },
+    {
+        "date":  "2026-07-04",
+        "title":  "AI Testing Daily Brief",
+        "file":  "ai-testing/2026/07/2026-07-04-ai-testing.md",
+        "type":  "ai-testing",
+        "category":  "AI Testing",
+        "tags":  [
+                     "AI Testing",
+                     "Agent Testing",
+                     "LLM Testing",
+                     "MCP",
+                     "Developer Tools"
+                 ],
+        "summary":  "智能测试的重点继续从脚本生成转向可审查的Agent工作流、权限治理与Agent安全验证。",
+        "source":  "ChatGPT",
+        "status":  "published"
+    },
+    {
+        "date":  "2026-07-03",
+        "title":  "AI Tech Daily Brief",
+        "file":  "ai-tech/2026/07/2026-07-03-ai-tech.md",
+        "type":  "ai-tech",
+        "category":  "AI Tech",
+        "tags":  [
+                     "AI",
+                     "LLM",
+                     "Agent",
+                     "MCP",
+                     "Developer Tools",
+                     "AI Infrastructure",
+                     "Agent Security"
+                 ],
+        "summary":  "前沿模型发布正在进入协同治理阶段，Agent 生态则从信息读取快速转向高权限执行，企业需要同步建设工具网关、权限控制与回归评测。",
+        "source":  "ChatGPT",
+        "status":  "published"
+    },
+    {
+        "date":  "2026-07-03",
+        "title":  "AI Testing Daily Brief",
+        "file":  "ai-testing/2026/07/2026-07-03-ai-testing.md",
+        "type":  "ai-testing",
+        "category":  "AI Testing",
+        "tags":  [
+                     "AI Testing",
+                     "Agent Testing",
+                     "LLM Testing",
+                     "MCP",
+                     "Developer Tools"
+                 ],
+        "summary":  "智能测试重点继续从脚本生成转向可审查的测试 Agent 工作流、Agent PR 治理与 MCP/工具调用安全。",
+        "source":  "ChatGPT",
+        "status":  "published"
+    },
+    {
+        "date":  "2026-07-02",
+        "title":  "AI Testing Daily Brief",
+        "file":  "ai-testing/2026/07/2026-07-02-ai-testing.md",
+        "type":  "ai-testing",
+        "category":  "AI Testing",
+        "tags":  [
+                     "AI Testing",
+                     "Agent Testing",
+                     "LLM Testing",
+                     "MCP",
+                     "Developer Tools",
+                     "Agent Security"
+                 ],
+        "summary":  "智能测试正在从单纯生成脚本，转向可审查的测试 Agent 工作流与更严格的权限、安全和供应链治理。",
+        "source":  "ChatGPT",
+        "status":  "published"
+    },
+    {
+        "date":  "2026-06-29",
+        "title":  "AI Tech Daily Brief",
+        "file":  "ai-tech/2026/06/2026-06-29.md",
+        "type":  "ai-tech",
+        "category":  "AI Tech",
+        "tags":  [
+                     "AI",
+                     "LLM",
+                     "Developer Tools"
+                 ],
+        "summary":  "今日 AI 技术行业重点动态。",
+        "source":  "ChatGPT",
+        "status":  "published"
+    },
+    {
+        "date":  "2026-06-29",
+        "title":  "AI Testing Daily Brief",
+        "file":  "ai-testing/2026/06/2026-06-29.md",
+        "type":  "ai-testing",
+        "category":  "AI Testing",
+        "tags":  [
+                     "AI Testing",
+                     "Codex",
+                     "Agent",
+                     "MCP"
+                 ],
+        "summary":  "今日 AI Testing 与 Agent 生态重点动态。",
+        "source":  "ChatGPT",
+        "status":  "published"
+    }
 ]

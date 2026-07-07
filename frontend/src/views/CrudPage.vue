@@ -1,36 +1,40 @@
 <template>
-  <section class="page page-stack">
+  <section class="page page-stack data-workspace-page">
     <PageHeader :title="config.title" :eyebrow="config.eyebrow" :description="config.description">
       <template #actions>
         <el-button type="primary" @click="openCreate">新增</el-button>
       </template>
     </PageHeader>
 
-    <BaseCard>
-      <div class="toolbar">
+    <BaseCard class="command-panel">
+      <div class="toolbar command-toolbar">
         <el-input v-model="keyword" placeholder="搜索关键词" clearable @keyup.enter="load" />
         <el-button @click="load">搜索</el-button>
       </div>
     </BaseCard>
 
-    <BaseCard v-loading="loading">
+    <BaseCard class="records-panel" v-loading="loading">
       <EmptyState v-if="!loading && !rows.length" :title="emptyTitle" description="新增内容后会在这里展示。" />
-      <el-table v-else :data="rows">
-        <el-table-column :prop="config.main" label="标题" min-width="220" />
-        <el-table-column v-for="col in config.columns" :key="col.prop" :prop="col.prop" :label="col.label" :width="col.width">
-          <template #default="{ row }">
-            <StatusTag v-if="col.tag" :value="row[col.prop]" />
-            <span v-else>{{ row[col.prop] || '-' }}</span>
-          </template>
-        </el-table-column>
-        <el-table-column label="操作" width="220" fixed="right">
-          <template #default="{ row }">
+      <div v-else class="record-grid">
+        <article v-for="row in rows" :key="row.id || row[config.main]" class="record-card">
+          <div class="record-card__main">
+            <span class="record-card__eyebrow">{{ config.eyebrow }}</span>
+            <h3>{{ row[config.main] || '未命名记录' }}</h3>
+          </div>
+          <div class="record-card__meta">
+            <div v-for="col in config.columns" :key="col.prop" class="record-meta-item">
+              <span>{{ col.label }}</span>
+              <StatusTag v-if="col.tag" :value="row[col.prop]" />
+              <strong v-else>{{ row[col.prop] || '-' }}</strong>
+            </div>
+          </div>
+          <div class="record-card__actions">
             <el-button size="small" text @click="openEdit(row)">编辑</el-button>
             <el-button v-if="type === 'issues'" size="small" text type="primary" @click="solve(row)">解决</el-button>
             <el-button size="small" text type="danger" @click="remove(row)">删除</el-button>
-          </template>
-        </el-table-column>
-      </el-table>
+          </div>
+        </article>
+      </div>
     </BaseCard>
 
     <el-dialog v-model="visible" :title="form.id ? '编辑' : '新增'" width="720px">

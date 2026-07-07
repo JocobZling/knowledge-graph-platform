@@ -48,3 +48,12 @@ scripts\stop-postgres.cmd
 ```
 
 Suggested next step after returning: run `scripts\run-backend.cmd`, then verify the frontend can call the backend APIs.
+
+## 2026-07-06 Resume Snapshot
+
+- PostgreSQL started successfully with `scripts\start-postgres.cmd`.
+- Backend started successfully with `scripts\run-backend.cmd` and listens on `http://localhost:8080`.
+- Frontend started successfully with `npm.cmd run dev -- --host 0.0.0.0` from `frontend/` and listens on `http://localhost:5173/`.
+- Daily Brief sync was executed with `curl.exe -X POST http://localhost:8080/api/daily-brief/sync`.
+- Sync response: `{"code":0,"message":"success","data":12}`.
+- Verification: `GET http://localhost:8080/api/daily-brief/list` returned `code: 0`; `HEAD http://localhost:5173/daily` returned `HTTP/1.1 200 OK`.

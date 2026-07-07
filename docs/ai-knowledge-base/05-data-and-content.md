@@ -80,3 +80,11 @@ status: published
 - 不要把公司内部资料、私钥、token、客户隐私写入 Markdown 示例。
 - 引入外部链接时，保留来源字段或正文链接，方便后续追溯。
 
+
+## 2026-07-06 Daily Brief Sync Snapshot
+
+- Source Markdown files were present under `daily/` for `ai-tech` and `ai-testing` through `2026-07-06`.
+- `POST /api/daily-brief/sync` was executed after backend startup.
+- Sync response was `{"code":0,"message":"success","data":12}`, meaning 12 Daily Brief records were inserted or updated.
+- `GET /api/daily-brief/list` returned `code: 0`; newest record verified in the response was `2026-07-06` / `ai-testing`.
+- Frontend `/daily` was verified with `HTTP/1.1 200 OK` from Vite on `http://localhost:5173/`.
