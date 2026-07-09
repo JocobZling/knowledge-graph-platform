@@ -1616,3 +1616,42 @@ body {
     padding: 18px;
   }
 }
+
+.record-card__preview {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.record-preview-item {
+  display: grid;
+  gap: 7px;
+  min-height: 92px;
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.record-preview-item span {
+  color: var(--color-accent-cyan);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.record-preview-item p {
+  display: -webkit-box;
+  margin: 0;
+  overflow: hidden;
+  color: var(--color-text-muted);
+  font-size: 13px;
+  line-height: 1.65;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+@media (max-width: 900px) {
+  .record-card__preview {
+    grid-template-columns: 1fr;
+  }
+}

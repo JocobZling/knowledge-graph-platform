@@ -21,6 +21,12 @@
             <span class="record-card__eyebrow">{{ config.eyebrow }}</span>
             <h3>{{ row[config.main] || '未命名记录' }}</h3>
           </div>
+          <div v-if="recordPreview(row).length" class="record-card__preview">
+            <div v-for="item in recordPreview(row)" :key="item.label" class="record-preview-item">
+              <span>{{ item.label }}</span>
+              <p>{{ item.text }}</p>
+            </div>
+          </div>
           <div class="record-card__meta">
             <div v-for="col in config.columns" :key="col.prop" class="record-meta-item">
               <span>{{ col.label }}</span>
@@ -75,21 +81,41 @@ const form = reactive({})
 const configs = {
   knowledge: {
     title: '知识库', eyebrow: 'Knowledge', description: '沉淀可复用的概念、经验和资料。', api: '/knowledge', main: 'title',
+    previewFields: [
+      { prop: 'summary', label: '摘要' },
+      { prop: 'content', label: '正文' },
+      { prop: 'source', label: '来源' }
+    ],
     columns: [{ prop: 'category', label: '分类', width: 140 }, { prop: 'status', label: '状态', width: 110, tag: true }, { prop: 'level', label: '熟悉度', width: 100, tag: true }],
     fields: [{ prop: 'title', label: '标题' }, { prop: 'summary', label: '摘要', type: 'textarea' }, { prop: 'content', label: '正文', type: 'textarea' }, { prop: 'category', label: '分类' }, { prop: 'status', label: '状态' }, { prop: 'source', label: '来源' }]
   },
   issues: {
     title: '问题库', eyebrow: 'Issues', description: '记录问题背景、原因、解决方案和复盘信息。', api: '/issues', main: 'title',
+    previewFields: [
+      { prop: 'errorMessage', label: '报错' },
+      { prop: 'background', label: '背景' },
+      { prop: 'reason', label: '原因' },
+      { prop: 'solution', label: '方案' }
+    ],
     columns: [{ prop: 'problemType', label: '类型', width: 150 }, { prop: 'status', label: '状态', width: 110, tag: true }, { prop: 'difficulty', label: '难度', width: 100, tag: true }],
     fields: [{ prop: 'title', label: '标题' }, { prop: 'problemType', label: '问题类型' }, { prop: 'errorMessage', label: '报错信息', type: 'textarea' }, { prop: 'background', label: '背景', type: 'textarea' }, { prop: 'reason', label: '原因', type: 'textarea' }, { prop: 'solution', label: '解决方案', type: 'textarea' }]
   },
   projects: {
     title: '项目中心', eyebrow: 'Projects', description: '管理项目进展、优先级和关键上下文。', api: '/projects', main: 'name',
+    previewFields: [
+      { prop: 'summary', label: '摘要' },
+      { prop: 'description', label: '描述' }
+    ],
     columns: [{ prop: 'status', label: '状态', width: 120, tag: true }, { prop: 'priority', label: '优先级', width: 100, tag: true }],
     fields: [{ prop: 'name', label: '名称' }, { prop: 'summary', label: '摘要', type: 'textarea' }, { prop: 'description', label: '描述', type: 'textarea' }, { prop: 'status', label: '状态' }]
   },
   prompts: {
     title: 'Prompt 管理', eyebrow: 'Prompts', description: '维护不同场景下可复用的 Prompt 模板。', api: '/prompts', main: 'title',
+    previewFields: [
+      { prop: 'scenario', label: '场景' },
+      { prop: 'content', label: '内容' },
+      { prop: 'model', label: '模型' }
+    ],
     columns: [{ prop: 'scenario', label: '场景', width: 180 }, { prop: 'model', label: '模型', width: 120 }],
     fields: [{ prop: 'title', label: '标题' }, { prop: 'scenario', label: '场景' }, { prop: 'content', label: '内容', type: 'textarea' }, { prop: 'model', label: '模型' }]
   }
@@ -122,6 +148,17 @@ function openCreate() {
 function openEdit(row) {
   resetForm(row)
   visible.value = true
+}
+
+function previewText(value) {
+  return String(value || '').replace(/\s+/g, ' ').trim().slice(0, 120)
+}
+
+function recordPreview(row) {
+  return config.value.previewFields
+    .map((field) => ({ label: field.label, text: previewText(row[field.prop]) }))
+    .filter((item) => item.text)
+    .slice(0, 3)
 }
 
 async function save() {
