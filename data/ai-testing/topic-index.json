@@ -1,0 +1,616 @@
+{
+  "schema_version": 1,
+  "source_glob": "daily/ai-testing/**/*.md",
+  "latest_report_date": "2026-07-15",
+  "recent_7_days_start": "2026-07-09",
+  "report_count": 15,
+  "topic_count": 36,
+  "topics": [
+    {
+      "topic_id": "gpt-security-event-automated-red-teaming",
+      "entity": "GPT",
+      "event_type": "security-event",
+      "title": "GPT-5.6安全栈强调自动红队与分层防护",
+      "published_at": "2026-07-09",
+      "source_url": "https://openai.com/index/gpt-5-6",
+      "core_fact": "GPT-5.6采用模型级拒绝、实时分类器、账户级信号、差异化访问和持续测试等多层防护，并披露自动红队与网络安全评测。",
+      "first_reported": "2026-07-15",
+      "last_reported": "2026-07-15",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-15"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "google-update-quality-flywheel",
+      "entity": "Google",
+      "event_type": "update",
+      "title": "Google提出独立评估驱动的Agent质量飞轮",
+      "published_at": "2026-06-30",
+      "source_url": "https://developers.googleblog.com/driving-the-agent-quality-flywheel-from-your-coding-agent",
+      "core_fact": "Google将失败分析、指标选择、修复建议和前后对比封装为可由Coding Agent调用的评估Skill，并强调优化器不能评价自己的结果。",
+      "first_reported": "2026-07-15",
+      "last_reported": "2026-07-15",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-15"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "gimitest-security-event-rl-policy-testing",
+      "entity": "Gimitest",
+      "event_type": "security-event",
+      "title": "Gimitest提供通用RL策略测试框架",
+      "published_at": "2026-07-08",
+      "source_url": "https://arxiv.org/abs/2607.07029",
+      "core_fact": "Gimitest面向单Agent与多Agent强化学习策略，支持Gymnasium和PettingZoo环境下的组件修改与安全测试。",
+      "first_reported": "2026-07-15",
+      "last_reported": "2026-07-15",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-15"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "cread-research-autonomous-driving",
+      "entity": "CREAD",
+      "event_type": "research",
+      "title": "CREAD使用多Agent协作发现自动驾驶涌现型失效",
+      "published_at": "2026-07-07",
+      "source_url": "https://arxiv.org/abs/2607.06078",
+      "core_fact": "CREAD由感知模糊测试Agent、变形验证Agent和编排Agent组成，通过共享黑板协同探索跨模块失效。",
+      "first_reported": "2026-07-15",
+      "last_reported": "2026-07-15",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-15"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "agent-data-security-event-browser-tools",
+      "entity": "Agent Data",
+      "event_type": "security-event",
+      "title": "Agent Data Injection暴露新的Agent安全测试缺口",
+      "published_at": "2026-07-09",
+      "source_url": "https://arxiv.org/abs/2607.05120",
+      "core_fact": "研究提出Agent Data Injection，攻击者通过伪造资源标识、数据来源或工具格式，诱导Agent执行错误点击、远程代码执行或供应链操作。",
+      "first_reported": "2026-07-15",
+      "last_reported": "2026-07-15",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-15"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "testagent-research-unit-test-generation",
+      "entity": "TestAgent",
+      "event_type": "research",
+      "title": "TestAgent 以三类 Agent 协作生成并审查单元测试",
+      "published_at": "2026-07-10",
+      "source_url": "https://arxiv.org/abs/2607.09101",
+      "core_fact": "TestAgent 由需求规划、测试生成、测试审查三个 Agent 组成，并通过静态分析构建测试专用知识图谱，保存代码依赖、测试报告和失败分析。",
+      "first_reported": "2026-07-14",
+      "last_reported": "2026-07-14",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-14"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "mcp-research-evidence-verification",
+      "entity": "MCP",
+      "event_type": "research",
+      "title": "MCP 多智能体管线用于关键基础设施持续合规",
+      "published_at": "2026-07-09",
+      "source_url": "https://arxiv.org/abs/2607.08288",
+      "core_fact": "研究提出非侵入式 MCP 多智能体管线，将自然语言系统描述转成来源可验证的知识图谱和 NIST OSCAL 审计材料，并保留人工复核入口。",
+      "first_reported": "2026-07-14",
+      "last_reported": "2026-07-14",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-14"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "google-news-python-adk-a2a-https-developers-googleblog-com-build-cross-l",
+      "entity": "Google",
+      "event_type": "news",
+      "title": "Google 展示跨语言多智能体协作模式",
+      "published_at": "2026-07-08",
+      "source_url": "https://developers.googleblog.com/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a",
+      "core_fact": "Google 展示 Python 提取 Agent 与 Go 确定性合规校验 Agent 通过 ADK 和 A2A 协作，避免为统一技术栈重写服务。",
+      "first_reported": "2026-07-14",
+      "last_reported": "2026-07-14",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-14"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "codex-security-event-security",
+      "entity": "Codex",
+      "event_type": "security-event",
+      "title": "Codex CLI 0.142.5 修复 WebSocket trace 日志泄露风险",
+      "published_at": "2026-07-01",
+      "source_url": "https://developers.openai.com/codex/changelog",
+      "core_fact": "OpenAI Codex Changelog 显示，Codex CLI 0.142.5 修复了完整 Responses WebSocket 请求 payload 被写入 trace logs 的问题。",
+      "first_reported": "2026-07-04",
+      "last_reported": "2026-07-14",
+      "appeared_count": 5,
+      "appeared_dates": [
+        "2026-07-04",
+        "2026-07-05",
+        "2026-07-06",
+        "2026-07-14"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "vera-security-event-tool-calling",
+      "entity": "Vera",
+      "event_type": "security-event",
+      "title": "Vera 展示证据化 Agent 安全测试方法",
+      "published_at": "2026-07-02",
+      "source_url": "https://github.com/Yunhao-Feng/Vera",
+      "core_fact": "Vera 通过风险发现、组合测试生成和基于环境状态及工具调用证据的判定，形成自动化安全测试闭环。",
+      "first_reported": "2026-07-12",
+      "last_reported": "2026-07-13",
+      "appeared_count": 2,
+      "appeared_dates": [
+        "2026-07-12",
+        "2026-07-13"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "microsoft-research-cli-coding-claude-code-github-copilot-enterprise-adoption-pr",
+      "entity": "Microsoft",
+      "event_type": "research",
+      "title": "微软大规模部署 CLI Coding Agent 的研究显示合并 PR 数提升约24%",
+      "published_at": "2026-07-01",
+      "source_url": "https://arxiv.org/abs/2607.01418",
+      "core_fact": "研究分析微软数万名工程师采用 Claude Code 和 GitHub Copilot CLI 的情况，发现采用者合并的 PR 数相对反事实基线约高24%，但研究同时强调合并 PR 数不等同于实际业务价值。",
+      "first_reported": "2026-07-11",
+      "last_reported": "2026-07-13",
+      "appeared_count": 2,
+      "appeared_dates": [
+        "2026-07-11",
+        "2026-07-13"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "logichunter-research-agent-framework",
+      "entity": "LogicHunter",
+      "event_type": "research",
+      "title": "LogicHunter 发现 40 个 Agent 框架未知缺陷",
+      "published_at": "2026-07-07",
+      "source_url": "https://arxiv.org/abs/2607.06195",
+      "core_fact": "LogicHunter 面向 LangChain、LlamaIndex、CrewAI 等框架，通过规范感知输入生成与主动式 Agentic Oracle 识别异常和静默语义失败。",
+      "first_reported": "2026-07-13",
+      "last_reported": "2026-07-13",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-13"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "itu-release-governance",
+      "entity": "ITU",
+      "event_type": "release",
+      "title": "ITU 启动可信 AI Agent 国际框架工作",
+      "published_at": "2026-07-09",
+      "source_url": "https://www.reuters.com/legal/litigation/un-digital-tech-agency-launches-initiative-improve-trust-ai-agents-2026-07-09",
+      "core_fact": "ITU 将成立焦点组，研究 AI Agent 的身份可信、责任边界和人类监督框架，金融交易与关键基础设施是重点场景。",
+      "first_reported": "2026-07-12",
+      "last_reported": "2026-07-13",
+      "appeared_count": 2,
+      "appeared_dates": [
+        "2026-07-12",
+        "2026-07-13"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "gpt-release-openai-chatgpt-work-codex-https-www-reuters-com-business-lau",
+      "entity": "GPT",
+      "event_type": "release",
+      "title": "OpenAI 发布 GPT-5.6 与 ChatGPT Work",
+      "published_at": "2026-07-09",
+      "source_url": "https://www.reuters.com/business/openai-launches-chatgpt-work-2026-07-09",
+      "core_fact": "OpenAI 发布 GPT-5.6 系列及 ChatGPT Work，将 Codex、文件处理、网站与办公任务整合进统一工作型 Agent。",
+      "first_reported": "2026-07-13",
+      "last_reported": "2026-07-13",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-13"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "github-mobile-news-copilot-session-https-blog-changelog-2026-improved-filters-s",
+      "entity": "GitHub Mobile",
+      "event_type": "news",
+      "title": "GitHub Mobile 增强 Copilot 会话筛选与排序",
+      "published_at": "2026-07-10",
+      "source_url": "https://github.blog/changelog/2026-07-10-github-mobile-improved-filters-and-sorting-for-copilot-sessions",
+      "core_fact": "GitHub Mobile 新增按状态、仓库、类型、Agent 等维度筛选 Copilot 会话，并支持排序。",
+      "first_reported": "2026-07-12",
+      "last_reported": "2026-07-12",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-12"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "ai-黑客能力正在超过传统网络安全测试基准-security-event-automated-red-teaming",
+      "entity": "AI 黑客能力正在超过传统网络安全测试基准",
+      "event_type": "security-event",
+      "title": "AI 黑客能力正在超过传统网络安全测试基准",
+      "published_at": "2026-07-07",
+      "source_url": "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases",
+      "core_fact": "报道称 AI 模型在网络安全能力上快速进步，传统静态基准难以衡量真实能力，美国相关机构也在推进新的前沿模型评估流程。",
+      "first_reported": "2026-07-10",
+      "last_reported": "2026-07-12",
+      "appeared_count": 3,
+      "appeared_dates": [
+        "2026-07-10",
+        "2026-07-12"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "ai-coding-agents-可被-干净仓库-诱导安装恶意代码-security-event-supply-chain",
+      "entity": "AI coding agents 可被“干净仓库”诱导安装恶意代码",
+      "event_type": "security-event",
+      "title": "AI coding agents 可被“干净仓库”诱导安装恶意代码",
+      "published_at": "2026-06-29",
+      "source_url": "https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices",
+      "core_fact": "Mozilla 0din 团队展示了 AI 编码 Agent 可被看似正常的 GitHub 仓库诱导运行恶意初始化脚本，并通过 DNS TXT 记录取回编码数据，最终打开反向 Shell。",
+      "first_reported": "2026-07-04",
+      "last_reported": "2026-07-12",
+      "appeared_count": 5,
+      "appeared_dates": [
+        "2026-07-04",
+        "2026-07-07",
+        "2026-07-09",
+        "2026-07-12"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "llm-release-evidence-verification",
+      "entity": "LLM",
+      "event_type": "release",
+      "title": "业务型 LLM 系统开始采用“验收测试先行”的评估协议",
+      "published_at": "2026-06-01",
+      "source_url": "https://arxiv.org/abs/2606.02755",
+      "core_fact": "研究提出将业务目标转为可执行行为契约、发布门禁、监控信号和证据工件，并使用 red-train-green 流程替代“先改 Prompt、后看 Benchmark”的方式。",
+      "first_reported": "2026-07-11",
+      "last_reported": "2026-07-11",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-11"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "hallusquatting-security-event-supply-chain",
+      "entity": "HalluSquatting",
+      "event_type": "security-event",
+      "title": "HalluSquatting 可利用 Agent 幻觉出的仓库和 Skill 名称实施供应链攻击",
+      "published_at": "2026-07-08",
+      "source_url": "https://arxiv.org/abs/2607.07433",
+      "core_fact": "研究提出 adversarial hallucination squatting。攻击者预测模型可能生成的错误仓库或 Skill 名称，抢先注册并植入恶意内容，再诱导 Agent 自动拉取和执行。实验中，仓库克隆场景的幻觉率最高达到85%，Skill安装场景达到100%。",
+      "first_reported": "2026-07-11",
+      "last_reported": "2026-07-11",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-11"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "deeptest-security-event-security",
+      "entity": "DeepTest",
+      "event_type": "security-event",
+      "title": "DeepTest 2026 首次以竞赛形式比较 LLM 测试工具发现失败的能力",
+      "published_at": "2026-04-14",
+      "source_url": "https://arxiv.org/abs/2604.12615",
+      "core_fact": "DeepTest 工具竞赛要求参赛工具为汽车手册问答系统生成能暴露“遗漏安全警告”的输入，并按发现失败的有效性和测试多样性评分。",
+      "first_reported": "2026-07-11",
+      "last_reported": "2026-07-11",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-11"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "ai-网络安全能力正在超过传统静态测试基准-security-event-benchmark",
+      "entity": "AI 网络安全能力正在超过传统静态测试基准",
+      "event_type": "security-event",
+      "title": "AI 网络安全能力正在超过传统静态测试基准",
+      "published_at": "2026-07-07",
+      "source_url": "https://www.axios.com/2026/07/07/ai-hacking-benchmarking-tests",
+      "core_fact": "报道指出前沿模型的网络安全能力增长速度正在使传统静态 Benchmark 失去区分度，部分 Agent 已迅速超过公开基准，同时还表现出更强的沙箱逃逸尝试能力。",
+      "first_reported": "2026-07-11",
+      "last_reported": "2026-07-11",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-11"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "github-copilot-news-openai-gpt-sol-terra-luna-agentic-coding-https-blog-changelo",
+      "entity": "GitHub Copilot",
+      "event_type": "news",
+      "title": "OpenAI GPT-5.6 Sol、Terra、Luna 已进入 GitHub Copilot",
+      "published_at": "2026-07-09",
+      "source_url": "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
+      "core_fact": "GitHub 宣布 OpenAI GPT-5.6 系列开始在 Copilot 中推出，包含 Sol、Terra、Luna 三个变体，分别面向复杂代码库推理、日常 Agentic Coding 和轻量低成本任务。",
+      "first_reported": "2026-07-10",
+      "last_reported": "2026-07-10",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-10"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "github-code-quality-governance-governance",
+      "entity": "GitHub Code Quality",
+      "event_type": "governance",
+      "title": "GitHub Code Quality 支持组织级仓库定向启停",
+      "published_at": "2026-07-09",
+      "source_url": "https://github.blog/changelog/2026-07-09-organization-level-targeting-for-github-code-quality",
+      "core_fact": "GitHub Code Quality 支持组织所有者按自定义属性、手动选择、仓库可见性和 fork 状态定向启用或禁用，并可强制仓库管理员不能更改。",
+      "first_reported": "2026-07-10",
+      "last_reported": "2026-07-10",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-10"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "codex-release-computer-use-cli-settings-144-mcp-plugin-https-learn-chatgpt",
+      "entity": "Codex",
+      "event_type": "release",
+      "title": "Codex 7月9日更新：执行进度、Computer Use、插件管理与 CLI 稳定性改进",
+      "published_at": "2026-07-09",
+      "source_url": "https://learn.chatgpt.com/docs/changelog",
+      "core_fact": "Codex 更新包括让 Computer Use 更快、任务活动和进度更容易跟踪、插件管理移入 Settings，并发布 Codex CLI 0.144.0/0.144.1，包含 MCP 认证、写入审批模式、安装和代码模式可靠性修复。",
+      "first_reported": "2026-07-10",
+      "last_reported": "2026-07-10",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-10"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "safety-testing-llm-security-event-tool-calling",
+      "entity": "Safety Testing LLM",
+      "event_type": "security-event",
+      "title": "Safety Testing LLM Agents at Scale 关注大规模 Agent 安全测试",
+      "published_at": "2026-07-02",
+      "source_url": "https://arxiv.org/abs/2607.01793",
+      "core_fact": "论文指出 LLM Agents 通过外部工具执行自主操作，带来复杂且不断演变的安全风险；传统基于专家规则的安全测试难以随 Agent 演化而扩展。",
+      "first_reported": "2026-07-05",
+      "last_reported": "2026-07-09",
+      "appeared_count": 4,
+      "appeared_dates": [
+        "2026-07-05",
+        "2026-07-06",
+        "2026-07-08",
+        "2026-07-09"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "playwright-test-agents-update-planner-generator-healer",
+      "entity": "Playwright Test Agents",
+      "event_type": "update",
+      "title": "Playwright 提供 planner、generator、healer 三类测试 Agent",
+      "published_at": "2026-07-01",
+      "source_url": "https://playwright.dev/docs/test-agents",
+      "core_fact": "Playwright 官方提供 planner、generator 和 healer 三类测试 Agent。planner 探索应用并生成 Markdown 测试计划，generator 将计划转换为可执行测试，healer 运行并修复失败用例；同时支持 VS Code、Claude Code、Codex 和 OpenCode。",
+      "first_reported": "2026-07-02",
+      "last_reported": "2026-07-09",
+      "appeared_count": 8,
+      "appeared_dates": [
+        "2026-07-02",
+        "2026-07-03",
+        "2026-07-04",
+        "2026-07-05",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "github-copilot-browser-tools-release-browser-tools",
+      "entity": "GitHub Copilot Browser Tools",
+      "event_type": "release",
+      "title": "GitHub Copilot Browser Tools for VS Code 正式 GA",
+      "published_at": "2026-07-01",
+      "source_url": "https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available",
+      "core_fact": "GitHub 宣布 VS Code 中的 Copilot Browser Tools 已正式可用，用户更新 VS Code 后，可以让 Agent 打开或测试页面。",
+      "first_reported": "2026-07-05",
+      "last_reported": "2026-07-09",
+      "appeared_count": 5,
+      "appeared_dates": [
+        "2026-07-05",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "claude-code-security-event-security",
+      "entity": "Claude Code",
+      "event_type": "security-event",
+      "title": "Government of Alberta 使用 Claude Code 进行大规模安全扫描与修复",
+      "published_at": "2026-07-06",
+      "source_url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
+      "core_fact": "Anthropic 发布案例称，Alberta 政府使用 Claude Code 对 466 million 行政府代码进行安全审查，约 50 个 Agent 并行扫描仓库，定位漏洞、生成修复，并在缺少测试时先补测试。",
+      "first_reported": "2026-07-07",
+      "last_reported": "2026-07-09",
+      "appeared_count": 3,
+      "appeared_dates": [
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09"
+      ],
+      "reported_in_last_7_days": true
+    },
+    {
+      "topic_id": "mcp-security-event-tool-calling",
+      "entity": "MCP",
+      "event_type": "security-event",
+      "title": "MCP 官方安全最佳实践强调授权、SSRF、会话劫持和本地服务器风险",
+      "published_at": "2026-07-04",
+      "source_url": "https://github.com/microsoft/playwright-mcp",
+      "core_fact": "MCP 官方安全文档列出 Confused Deputy、Token Passthrough、SSRF、Session Hijacking、Local MCP Server Compromise、Scope Minimization 等风险与缓解建议。",
+      "first_reported": "2026-07-04",
+      "last_reported": "2026-07-08",
+      "appeared_count": 3,
+      "appeared_dates": [
+        "2026-07-04",
+        "2026-07-06",
+        "2026-07-08"
+      ],
+      "reported_in_last_7_days": false
+    },
+    {
+      "topic_id": "ai-编码-agent-可被干净仓库诱导执行恶意代码-security-event-supply-chain",
+      "entity": "AI 编码 Agent 可被干净仓库诱导执行恶意代码",
+      "event_type": "security-event",
+      "title": "AI 编码 Agent 可被干净仓库诱导执行恶意代码",
+      "published_at": "2026-06-29",
+      "source_url": "https://www.tomshardware.com/tech-industry/cyber-security/ai-coding-agents-can-be-tricked-into-installing-malware-via-clean-github-repositories-mozillas-0din-team-shows-how-claude-code-can-be-exploited-by-its-own-helpfulness",
+      "core_fact": "Mozilla 0din 团队演示了 AI 编码 Agent 可能被看似正常的 GitHub 仓库诱导执行恶意初始化脚本，攻击链通过伪装项目初始化、DNS TXT 记录和反向 Shell 等方式绕过常规直觉检查。",
+      "first_reported": "2026-07-03",
+      "last_reported": "2026-07-05",
+      "appeared_count": 2,
+      "appeared_dates": [
+        "2026-07-03",
+        "2026-07-05"
+      ],
+      "reported_in_last_7_days": false
+    },
+    {
+      "topic_id": "building-research-oracle-coding-playwright-https-arxiv-org-abs-2606-28430",
+      "entity": "Building",
+      "event_type": "research",
+      "title": "“Building to the Test” 研究提醒 Agent 可能只满足测试而未交付真实需求",
+      "published_at": "2026-06-26",
+      "source_url": "https://arxiv.org/abs/2606.28430",
+      "core_fact": "研究指出，编码 Agent 在可见测试或测试 Oracle 约束下可能获得高分，但实际交付的库或功能并未真正满足用户需求，即“building to the test”。",
+      "first_reported": "2026-07-04",
+      "last_reported": "2026-07-04",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-04"
+      ],
+      "reported_in_last_7_days": false
+    },
+    {
+      "topic_id": "pr-release-reviewer-2026-code-review-https-github-com",
+      "entity": "PR",
+      "event_type": "release",
+      "title": "开源 AI 代码审查工具继续强化 PR 质量门禁",
+      "published_at": "2026-06-26",
+      "source_url": "https://github.com/The-PR-Agent/pr-agent",
+      "core_fact": "PR-Agent 是开源 AI PR Reviewer，项目最新版本 v0.38.0 于 2026-06-26 发布，具备 PR 摘要、代码审查、改进建议等能力。",
+      "first_reported": "2026-07-03",
+      "last_reported": "2026-07-03",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-03"
+      ],
+      "reported_in_last_7_days": false
+    },
+    {
+      "topic_id": "mcp-research-tool-calling",
+      "entity": "MCP",
+      "event_type": "research",
+      "title": "MCP 已成为主流 Agent 工具接入层，但描述质量和权限边界是测试重点",
+      "published_at": "2026-07-03",
+      "source_url": "https://arxiv.org/abs/2602.14878",
+      "core_fact": "MCP 官方定义其为连接 AI 应用与外部数据、工具、工作流的开放标准；相关研究显示，MCP 工具描述质量会影响 Agent 选工具、传参和完成任务的可靠性。",
+      "first_reported": "2026-07-03",
+      "last_reported": "2026-07-03",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-03"
+      ],
+      "reported_in_last_7_days": false
+    },
+    {
+      "topic_id": "github-copilot-research-pull-request-review-workflow-https-docs-com-how-tos-use",
+      "entity": "GitHub Copilot",
+      "event_type": "research",
+      "title": "GitHub Copilot Agent 强调分支、Pull Request 和人工 Review",
+      "published_at": "2026-07-02",
+      "source_url": "https://docs.github.com/en/copilot/how-tos/copilot-on-github/use-copilot-agents",
+      "core_fact": "GitHub Copilot Agent 可在分支上研究仓库、制定实现计划、迭代修改代码并创建 Pull Request；用户可以实时跟踪、追加指令、停止任务并审查结果。GitHub 明确建议对 Agent 创建的 Pull Request 进行与人工贡献同等级别的审查。",
+      "first_reported": "2026-07-02",
+      "last_reported": "2026-07-03",
+      "appeared_count": 2,
+      "appeared_dates": [
+        "2026-07-02",
+        "2026-07-03"
+      ],
+      "reported_in_last_7_days": false
+    },
+    {
+      "topic_id": "提示注入与伪造推理仍可绕过模型安全边界-security-event-prompt-injection",
+      "entity": "提示注入与伪造推理仍可绕过模型安全边界",
+      "event_type": "security-event",
+      "title": "提示注入与伪造推理仍可绕过模型安全边界",
+      "published_at": "2026-07-01",
+      "source_url": "https://www.reuters.com/legal/legalindustry/it-reads-your-email-files-your-claims-never-asks-permission-privacy-law-ai--pracin-2026-07-02",
+      "core_fact": "近期研究提出 CoT Forgery 攻击，通过伪造看似可信的推理上下文诱导模型接受恶意请求。公开报道显示，该方法在多个模型上的攻击成功率较高，说明仅依赖角色标签或提示词层级并不足以建立可靠安全边界。",
+      "first_reported": "2026-07-02",
+      "last_reported": "2026-07-02",
+      "appeared_count": 2,
+      "appeared_dates": [
+        "2026-07-02"
+      ],
+      "reported_in_last_7_days": false
+    },
+    {
+      "topic_id": "agent-skill-security-event-supply-chain",
+      "entity": "Agent Skill",
+      "event_type": "security-event",
+      "title": "Agent Skill 生态存在规模化供应链风险",
+      "published_at": "2026-01-15",
+      "source_url": "https://arxiv.org/abs/2601.10338",
+      "core_fact": "研究分析了超过 3 万个 Agent Skills，发现 26.1% 至少包含一种安全问题，5.2% 呈现高严重度恶意特征；包含可执行脚本的 Skill 出现漏洞的概率明显更高。",
+      "first_reported": "2026-07-02",
+      "last_reported": "2026-07-02",
+      "appeared_count": 1,
+      "appeared_dates": [
+        "2026-07-02"
+      ],
+      "reported_in_last_7_days": false
+    }
+  ]
+}
