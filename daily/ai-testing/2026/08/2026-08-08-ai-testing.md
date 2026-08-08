@@ -26,7 +26,7 @@ summary: "今日新增聚焦Benchmark自身质量审计、Skill增强Agent的轨
 
 第二个重要新增是 **SkillTV-Bench**。它专门测试 LLM-as-a-Judge 与 Agent-as-a-Judge 能否正确验证“使用 Skill 完成长程任务”的 Agent，不只给 Judge 最终回答，还提供原始任务、完整轨迹、任务时 Skill 和可检查产物。论文包含 681 条真实 Agent 轨迹、50 个任务和 11 个领域；加入经过迭代的 JudgeSkill 后，同一 Agent Judge 的准确率由 43.8% 提升到 58.6%，提升 14.8 个百分点。来源：https://arxiv.org/abs/2608.05573
 
-第三个新增是 **EnvACE**：让 Agent 在真正执行工具调用前，先在内部预演工具动作可能产生的环境响应，再决定是否提交真实动作；论文在 BFCL-v4、tau²-Bench、VitaBench 和 FinMCP-Bench 上进行评测。与此同时，**AssertMate** 将多 Agent 方法用于测试断言生成，从代码生成、RAG 与 CoT 等不同视角预测期望值，再由 Judge 选择断言，为测试开发侧提供了一个较直接的新方向。来源：https://arxiv.org/abs/2608.06197 、https://arxiv.org/abs/2608.06042
+第三个新增是 **EnvACE**：让 Agent 在真正执行工具调用前，先在内部预演工具动作可能产生的环境响应，再决定是否提交真实动作；论文在 BFCL-v4、tau²-Bench、VitaBench 和 FinMCP-Bench 上进行评测。与此同时，**AssertMate** 将多 Agent 方法用于测试断言生成，从代码生成、RAG 与 CoT 等不同视角预测期望值，再由 Judge 选择断言，为测试开发侧提供了一个较直接的新方向。来源：https://arxiv.org/abs/2608.06197 、https://arxiv.org/abs/2608.05822
 
 本次已读取 2026 年 8 月 1 日至 8 月 7 日最近 7 篇 `daily/ai-testing` 日报及 `data/ai-testing/topic-index.json` 完成去重。近 7 日已覆盖 AgentRadio、ClawTrack、Agent 评测隔离、NOOA、ACM、OpenART、Trajectory Assurance、运行时故障监控、PIMiner 与 Codex Security 等主题，本期未重复进入重点栏目。当前 topic-index 的 `latest_report_date` 仍停留在 2026 年 7 月 15 日，因此实际日报仍作为主要去重依据。WayToAGI 缓存状态为 `success`，抓取时间为 2026 年 8 月 7 日 11:16:53（UTC+8），距本次执行不足 48 小时；本次仅作为线索源，正文事实均回到论文、GitHub 项目和官方资料核验。
 
@@ -111,7 +111,7 @@ summary: "今日新增聚焦Benchmark自身质量审计、Skill增强Agent的轨
 - **热度：** 中
 - **是否建议立即学习：** 测试开发团队建议关注
 
-来源：https://arxiv.org/abs/2608.06042
+来源：https://arxiv.org/abs/2608.05822
 
 **最近 24 小时未发现更多经官方或论文原文核验、且与近 7 日归档不重复的高价值主流新增，因此不使用旧内容补足条数。**
 
@@ -176,14 +176,14 @@ IBM Research：https://research.ibm.com/people/roy-bar-haim
 
 ```bash
 uv tool install harbor
-harbor run -d terminal-bench/terminal-bench-2 -m "<model>" -a "<agent>"
+harbor run -d "<dataset@version>" -m "<model>" -a "<agent>"
 harbor view jobs
 ```
 
 Harbor 的价值不是替你定义正确性，而是统一运行 Agent、任务环境与 Verifier。企业使用时仍应固定数据集版本、环境镜像、Agent Harness 和模型配置，并把业务 Oracle 保留在独立验证层，避免 Agent 自己定义自己的通过标准。
 
-项目：https://github.com/laude-institute/harbor
-文档：https://harborframework.com/docs
+项目：https://github.com/harbor-framework/harbor
+文档：https://www.harborframework.com/docs
 
 ## 9. 今日学习：为什么 Judge 也要被测试？
 
@@ -210,9 +210,9 @@ Agent Judge 不是天然真值。它可能被流畅的最终回答迷惑、忽�
 - **论文：** Benchmarking the Benchmarks — https://arxiv.org/abs/2608.06329
 - **论文 / 项目：** SkillTV-Bench — https://arxiv.org/abs/2608.05573 、https://github.com/HanZhi306/SkillTV-Bench
 - **论文 / 项目：** EnvACE — https://arxiv.org/abs/2608.06197 、https://github.com/Within-yao/EnvACE
-- **论文：** AssertMate — https://arxiv.org/abs/2608.06042
-- **论文：** AV-AIVAT — https://arxiv.org/abs/2608.06119 ，关注带 anytime-valid stopping 的低成本 Agent 评测是否能迁移到非游戏场景
-- **工具：** Harbor — https://github.com/laude-institute/harbor
+- **论文：** AssertMate — https://arxiv.org/abs/2608.05822
+- **论文：** AV-AIVAT — https://arxiv.org/abs/2608.06362 ，关注带 anytime-valid stopping 的低成本 Agent 评测是否能迁移到非游戏场景
+- **工具：** Harbor — https://github.com/harbor-framework/harbor
 - **Prompt / Skill：** JudgeSkill 的“必须执行 / 必须产出 / 禁止动作”三类验收模板
 - **MCP：** EnvACE 在 FinMCP-Bench 上的 World Rehearsal 结果及对真实 MCP 写工具的迁移边界
 - **知识图谱节点：** Benchmark QA、JudgeSkill、Skill-aware Verification、World Rehearsal、Agent Oracle、Assertion Generation
