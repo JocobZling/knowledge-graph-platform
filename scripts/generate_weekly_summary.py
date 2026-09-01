@@ -153,7 +153,7 @@ def add_front_matter(body: str, now: datetime) -> str:
 title: "Weekly Conversation Summary"
 date: "{date_str}"
 type: "weekly-summary"
-category: "Weekly Review"
+category: "Weekly Summary"
 tags:
   - Weekly
   - Conversation

@@ -2,7 +2,7 @@
 title: "Weekly Conversation Summary"
 date: "2026-07-19"
 type: "weekly-summary"
-category: "Weekly Review"
+category: "Weekly Summary"
 tags:
   - Weekly
   - Conversation

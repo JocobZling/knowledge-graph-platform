@@ -23,8 +23,7 @@ const props = defineProps({
 })
 
 const displayTags = computed(() => uniqueTags([
-  props.brief.category,
-  props.brief.type,
+  props.brief.category || props.brief.type,
   ...normalizeTags(props.brief.tags)
 ]))
 

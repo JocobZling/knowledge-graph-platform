@@ -53,7 +53,7 @@ const filteredBriefs = computed(() => {
   return briefs.value.filter((brief) => {
     const date = brief.briefDate || brief.date
     const tags = normalizeTags(brief.tags)
-    const topics = unique([brief.type, brief.category].filter(Boolean))
+    const topics = [getBriefTopic(brief)].filter(Boolean)
     const haystack = [brief.title, brief.summary, brief.content, ...topics, ...tags].join(' ').toLowerCase()
     return (!keyword || haystack.includes(keyword))
       && (!filters.topic || topics.some((topic) => normalizeOptionKey(topic) === filters.topic))
@@ -63,7 +63,7 @@ const filteredBriefs = computed(() => {
   })
 })
 
-const topicOptions = computed(() => uniqueOptions(briefs.value.flatMap((brief) => [brief.type, brief.category].filter(Boolean))))
+const topicOptions = computed(() => uniqueOptions(briefs.value.map(getBriefTopic).filter(Boolean)))
 const tagOptions = computed(() => unique(briefs.value.flatMap((brief) => normalizeTags(brief.tags))))
 
 async function loadBriefs() {
@@ -112,6 +112,10 @@ function normalizeTags(tags) {
   } catch {
     return String(tags).split(',').map((tag) => tag.trim()).filter(Boolean)
   }
+}
+
+function getBriefTopic(brief) {
+  return brief.category || brief.type || ''
 }
 
 function unique(values) {

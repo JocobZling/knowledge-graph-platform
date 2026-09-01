@@ -11,8 +11,7 @@
       <article v-else-if="brief" class="daily-detail">
         <div class="daily-detail__meta">
           <span>{{ brief.briefDate || brief.date }}</span>
-          <span>{{ brief.type }}</span>
-          <span>{{ brief.category }}</span>
+          <span>{{ brief.category || brief.type }}</span>
           <span>{{ brief.source }}</span>
           <StatusTag :value="brief.status" />
         </div>
