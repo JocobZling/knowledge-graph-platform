@@ -63,3 +63,11 @@ import http from '../api/http'
 
 当后端未启动时，Daily Brief 前端可使用 `frontend/public/daily-reports/` 中的本地 Markdown 示例作为预览数据。修改此逻辑时要保留无后端预览能力，除非任务明确要求移除。
 
+该 fallback 由 `index.json` 显式列出文件，属于独立的预览快照；它不等同于 `daily/` 下的完整归档。需要验证新增归档内容时，应启动后端并执行 Daily Brief 同步。
+
+## Daily Brief 元数据展示与筛选
+
+- 将 `category` 视为面向读者的主题名；`type` 是回退值和数据类型标识。
+- 卡片、详情页与主题筛选都使用 `category || type`，避免同一篇内容同时出现语义重复的主题。
+- 主题筛选的选项键会忽略大小写、空格、连字符和下划线；标签仍按原值展示。
+- 卡片标签会按上述主题归一规则去重，因此新增内容应同时保留稳定的 `type` 与清晰的 `category`。

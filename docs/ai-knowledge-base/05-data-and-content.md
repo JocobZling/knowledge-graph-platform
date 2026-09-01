@@ -64,15 +64,29 @@ status: published
 ---
 ```
 
+当前归档类型包括 `ai-tech`、`ai-testing` 和 `weekly-summary`。`type` 用于同步去重和程序识别；`category` 用于前端主题展示，推荐使用清晰、可读的名称，例如 `AI Tech`、`AI Testing`、`Weekly Summary`。
+
+## 周总结归档
+
+周总结沿用相同的 Markdown 与 Front Matter 规范：
+
+```text
+daily/weekly-summary/<year>/<month>/<YYYY-MM-DD>-weekly-summary.md
+```
+
+生成流水线详见 [`docs/weekly-summary-pipeline.md`](../weekly-summary-pipeline.md)：GitHub Actions 每周日 09:30（Asia/Shanghai）运行，也支持手动传入 `source_content`。脚本优先使用手动内容，其次读取 `data/weekly-summary-source.md`；配置仓库 Secret `OPENAI_API_KEY` 后才会调用模型生成完整总结。缺少来源或密钥时，脚本会生成可追踪的占位归档，而不是静默失败。
+
 ## 同步规则
 
 `POST /api/daily-brief/sync` 应满足：
 
-- 扫描 `daily/`。
+- 扫描 `daily/`，并兼容 `frontend/public/daily-reports/` 的本地预览 Markdown。
 - 解析 Front Matter 和 Markdown 正文。
-- 写入或更新 `daily_brief`。
+- 以 `briefDate + type` 写入或更新 `daily_brief`。
 - 同一天同 type 重复执行时更新，不产生重复数据。
 - Front Matter 缺失字段时要兼容处理。
+
+`daily/` 是完整归档的事实源；`frontend/public/daily-reports/index.json` 只服务于前端无后端预览，新增 `daily/` 文件不会自动加入该 fallback 索引。
 
 ## 内容安全
 

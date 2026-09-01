@@ -40,7 +40,7 @@ daily/weekly-summary/2026/07/2026-07-05-weekly-summary.md
 title: "Weekly Conversation Summary"
 date: "2026-07-05"
 type: "weekly-summary"
-category: "Weekly Review"
+category: "Weekly Summary"
 tags:
   - Weekly
   - Conversation

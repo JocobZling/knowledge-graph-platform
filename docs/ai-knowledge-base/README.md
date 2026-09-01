@@ -14,7 +14,7 @@
 
 - 后端/API：`01-architecture.md`、`02-runbook.md`、`03-backend-guide.md`
 - 前端/UI：`01-architecture.md`、`04-frontend-guide.md`
-- Daily Brief/内容：`05-data-and-content.md`
+- Daily Brief/内容：`05-data-and-content.md`；周总结流水线：[weekly-summary-pipeline.md](../weekly-summary-pipeline.md)
 - Git/安全/交付：`06-security-and-git.md`
 - 新功能/修 Bug/验收：`07-task-playbooks.md`
 
@@ -32,4 +32,3 @@
 - 后端提供统一 `/api` 接口和 PostgreSQL 数据持久化。
 - 前端提供 Dashboard、CRUD 管理、图谱、搜索、时间轴、Daily Brief 阅读。
 - Daily Brief 使用本地 Markdown + Front Matter，并可同步进入数据库。
-
