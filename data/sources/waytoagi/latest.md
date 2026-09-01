@@ -1,10 +1,10 @@
 ---
 title: "WayToAGI Source Cache"
-fetched_at: "2026-07-22T11:48:34+08:00"
+fetched_at: "2026-09-01T13:12:04+08:00"
 source_url: "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e"
 final_url: "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e"
 retrieval_method: "playwright-virtualized-scroll"
-content_sha256: "f6cb29d0b6e54b82594cea2b82459568134fe39887ecd47a6a492445f5cb0cf2"
+content_sha256: "feafc34d5eae36fa4144a652d6f55bcc47272919a793e6669f369f0ec0676e6d"
 page_title: "通往AGI之路 - 飞书云文档"
 status: "success"
 ---
@@ -14,7 +14,7 @@ status: "success"
 WaytoAGI
 🌈
 通往AGI之路
-最新修改时间为07月21日
+最新修改时间为08月31日
 登录/注册
 🎯 愿景和目标
 🔖 简介 | WaytoAGI.com
@@ -26,14 +26,14 @@ WaytoAGI
 📺直播共学
 🎡近期活动
 🎏 近 7 日更新日志
-7 月 21 日
-7 月 20 日
-7 月 19 日
-7 月 18 日
-7 月 17 日
-7 月 16 日
-7 月 15 日
-7 月 14 日
+8 月 31 日
+8 月 30 日
+8 月 29 日
+8 月 28 日
+8 月 27 日
+8 月 26 日
+8 月 25 日
+8 月 24 日
 💬 飞书 & 微信交流群
 🏠加入WaytoAGI-填写后加入飞书/微信群
 🙏 友情推荐
@@ -53,16 +53,16 @@ WaytoAGI
 🌈 访问官网
 📖 知识库首页
 2023年4月26日创建
-3427556
-7128842
-3234
-763
+3678286
+7513664
+3260
+770
 🎯  愿景和目标
 💡
 要实现通用人工智能（AGI）也许有很长的路要走，
 我们的目标是让每个人的学习过程少走弯路，让更多的人因 AI 而强大。
 🔖  简介  |  WaytoAGI.com
-欢迎来到通往 AGI 之路 / WaytoAGI社区是致力于人工智能学习的知识库与社区平台，提供系统全面的 AI 学习路径，整合资源、组织实践活动。覆盖近 900 万学习者，知识库访问量超亿次，联动 180 所高校及 100 + 企业，举办 500 + 场活动。
+欢迎来到通往 AGI 之路 / WaytoAGI社区是致力于人工智能学习的知识库与社区平台，提供系统全面的 AI 学习路径，整合资源、组织实践活动。覆盖1000万+学习者，知识库访问量超亿次，联动 180 所高校及 100 + 企业，举办 500 + 场活动。
 🏡
 通往 AGI 之路｜知识库与社区介绍｜
 👋
@@ -86,8 +86,9 @@ WaytoAGI知识库内10000+篇内容，现在一句话即可出现精准答案加
 投稿要求：                                              ✅ 原创、严谨、有深度
 审核流程：
 评论（0）
+部分内容可能由 AI 生成
 帮助中心
-效率指南
+快捷键
 🔬 AI技术探讨与分析
 💡 实践经验与案例分享
 🚀 行业动态与趋势观察
@@ -103,10 +104,9 @@ AI 硬件的世界很大——从小巧的桌面智能设备，到科幻级的�
 立即报名
 所有历史直播回放看这里👇👇👇
 晚8点共学
-7月18日 直播回放
-7月16日 直播回放
-7月14日 直播回放
-7月13日 直播回放
+8月18日 直播回放
+8月15日 直播回放
+8月14日 直播回放
 🥇
 WaytoAGI近期活动备份鼓励大家以赛代练，多参加活动，和社区小伙伴一起动手实操
 近期活动
@@ -115,40 +115,38 @@ WaytoAGI近期活动备份鼓励大家以赛代练，多参加活动，和社区
 4.5 历史更新
 ◦
 《
-想用Codex做科研，可以先从这9个Skills开始》AI 辅助做科研最吓人的一刻，可能就是导师一查：你引用的论文根本不存在。卡尔这篇文章把GitHub上一批科研向Codex / Claude Skills实测了一遍，从防假引用、批量读文献、跑实验数据、社科实证、英文润色，到无人值守改稿，给出一份能抄作业的工具清单。
-AI写小X书为什么总像硬广？老金开源个Skill来帮你！》很多人用AI写小红书，一上来就丢一句“帮我写爆款”，结果热词、表情、标题都有了，读起来却像硬广，三秒就被划走。老金这个Skill或许会帮到你：先逼你想明白内容类型、目标读者、真实素材、视觉路线和哪些地方必须人人为同意，再生成标题、封面、6到8张内页、正文、标签和发布前自检。
-开源n8n-to-skill，我的工作流可以体面退休了》作者开源了一个能把任意 n8n 工作流，解构后重写成 Agent skill 的元 skill的工具：n8n-to-skill。如果你也想把之前已经搭好、跑了很久的 n8n 工作流变成 Agent 能直接调用的原生 skill，这篇文章或许会帮助到你！
-解锁 Kimi K3 的20种创作玩法》很多人看Kimi K3，第一反应还是盯榜单：参数多大、排第几、打赢了谁。真正容易错过的是，它到底能帮我们做出哪些东西。作者整理了20种玩法：浏览器游戏、3D 产品、物理模拟、落地页、全栈脚手架、数据看板、代码迁移、多模态截图/视频转代码等等。快来挑几个prompt跑一遍试试效果！
-聊近期 Agent 模型，以及我的选用建议》很多人选Agent模型，最容易踩的坑就是只看谁最强，结果高难任务用错模型、日常任务烧爆 token，扛不住成本。一泽把最近发布的这些新模型：Fable 5、GPT 5.6 Sol、Deepseek V4、Kimi K3、Qwen3.8-Max 放到真实产品的开发里跑了一遍发现Fable 适合高难新项目和架构判断，GPT 适合日常复杂开发，Deepseek 更适合 To C Agent 默认模型，Kimi 强在高视觉前端但消耗太快，Qwen 长程任务进步很明显。想少花冤枉 token，这篇值得打开对照一下。
-具体任务怎么变成 AI 工作流？这篇讲清楚》很多人做AI 工作流，一上来就想选工具、搭知识库、跑Agent，结果越做越散。作者这篇文章把一个公众号内容运营的案例完整拆开，展示了它怎样从一个小 Skill 起步，经过小样 MVP 验证，再扩展到历史资料批处理、未来资料增量处理，最后形成一组能重复使用的Agent工作流。很适合开发者、运营、内容创作者一起看，尤其是想把真实业务交给AI，但还不知道怎么起步的人。
-AI音乐周刊 W.A 037》AI音乐圈这周像被按了快进键。Suno一边冲刺 IPO，一边被源码泄露扯出版权和隐私风险；另一边，MiniMax、阿里、昆仑万维、Google、Ace Studio又在音乐生成、MV 制作、录音重混上密集上新。
-从一句话到一个动作：MiniCPM-Robot 如何让机器人真正执行指令》机器人“听懂人话”这件事，没我们想得那么简单。一句“把绿色积木放进右边盒子”，对大模型来说只是理解语义；对机器人来说，却意味着要看见目标、判断位置、规划动作，还要在环境变化后继续修正。CY 这篇借 MiniCPM-Robot 的开源发布，把VLA 模型、机械臂操作、自然语言跟随、本地推理和安全控制串了起来。看完会更清楚：具身智能要跑进现实世界，拼的不只是模型聪不聪明，更是整条系统链路能不能稳稳接住它。
-一个人如何管理几十个AI程序员？》如果你是经常使用Codex、Claude Code的独立开发者，这套Git Worktree方案不容错过，它可以很好地解决并行编码的代码冲突问题。文中不仅厘清了分支与Worktree的分工逻辑，还针对不同开发场景给出了灵活搭配策略，用来实现多任务互不干扰同步推进。
-Kimi K3 火到官方暂停会员订阅？我亲手测了一波，价格、入口、案例、提示词，看这篇就够了》Kimi K3刚冲上 Code Arena 第一，官方又因为算力紧张暂停新会员订阅。小歪直接花99 元实测了一轮，从价格、入口、API 成本，到3D 交互网页、知识可视化、无缝循环动效、多文件数据看板，带你快速判断K3哪些场景值得上手。
-基于 Claude 的图谱工程：从零基础到图谱架构师的 14 步路线图》如果你还在让 Agent 一步一步排队干活，这篇文章很值得看。这份14步路线图把 Claude 工作流从“线性脚本”拉成一张可编排的图：节点负责具体任务，边负责传递数据；能并行就扇出，需要判断再汇聚，再用Schema、验证器、Worktree和模型分层来控制质量、隔离风险、压缩成本。
-Netflix产品与技术负责人：AI时代为什么更需要系统型人才丨Lenny's Podcast》AI 把写代码、做原型、跑分析的门槛一下子降低了，但Netflix反而更看重“能把系统看完整的人”。这篇从Netflix 的CTO Elizabeth Stone和Lenny的访谈聊起，特别适合正在用 AI 提效的产品、技术和设计同学读一读：工具会让产出变快，真正决定上限的，是你能不能看见业务、数据、工程、体验和风险之间的连锁反应，并对最终结果负责。
-7.13—7.19｜本周 AI 论文精选》这期AI论文精选很适合关注Agent落地的人看：自我改进、元认知、路由评估、失败追踪、运行框架演化，这几篇都在围绕一个核心问题打转——怎样让智能体更可靠、更可调试、更能长期运行。后半部分论文还延伸到了世界模型、安全监控优化、兼顾推理多样性的强化学习算法和高性能开源人形机器人模型。
-从Loop Engineering到Graph Engineering：AI 智能体架构转变真正意味着什么》很多人做 Agent 还停在“单个反馈循环”：测一个指标、调一次策略、再继续优化。作者拆解了从Loop Engineering 走向Graph Engineering的底层逻辑：让多个循环彼此观察、校验、约束，用反指标、审计循环、慢速目标层和现实锚点，防止系统自我欺骗。
-AI 发展了 4 年，把应用发展没了？| 42章经》AI发展四年，市场反而开始喊“应用凉了”。作者这篇文章把模型和应用的几轮起落剖析了下：从 Character.ai、GPT-4o、DeepSeek、Manus，到智谱上市和 Openclaw 热潮，资本情绪一直在模型与应用之间剧烈摆动。对创业者来说，真正要守住的是用户价值、真实付费、出海能力和团队的韧性。
-LangChain开源了软件工程智能体工厂》LangChain开源了一个软件工程智能体工厂：dcode负责本地交互式编码，OpenSWE负责云端后台跑任务和提PR，OpenSWE Review 接入GitHub做自动代码审查，OpenWiki则为仓库持续生成文档和智能体记忆。快来体验一下！
-Codex Micro状态键盘，我做了个Codex＋CC版》CY把Codex Micro的“Agent 状态外显”思路做成了Codex + Claude Code都能用的硬件版。他用EasyInput开发板跑通了从Codex / CC、本地Bridge、蓝牙 GATT到实体灯效的完整链路，让Agent的空闲、思考、未读、等待确认、报错等状态都可以直接显示在桌面灯光上。接下来，也会把它放进WaytoAGI AI 硬件训练营，带大家从零跑通相关设置和操作。
-如何打造能够自我纠错的 AI 循环？》如果你已经厌倦了反复给 AI 改错，这篇文章会很有启发。它把“自我纠错的 AI 循环”拆成构建者、评审者、管理者三层：先产出，再用真实依据核查，最后决定返工、通过或升级给人。这其中的关键在于结构化交接、独立评审、硬性停止条件和故障测试。
-如何快速学习一门新的编程语言：以 Rust 和 Go 为例》很多人学习一门新语言时，会从变量、循环、函数开始，顺着教程一章一章往后读。几天之后，语法记住了一些，但真正要写程序时，仍然不知道该怎样组织代码。问题通常不在于学得不够多，而在于学习顺序错了。快速掌握一门编程语言的关键，是尽快建立它的心智模型：它为何存在，擅长解决什么问题，提供了哪些核心抽象，又希望程序员以什么方式思考。
-智能体如何真正使用浏览器：CDP（Chrome DevTools Protocol）指南》想让智能体真正操作浏览器，CDP是绕不开的一层底座。作者从 DevTools 背后的通信协议讲起，带大家看看Chrome如何通过JSON 命令、事件、Target、Session 暴露页面、网络、JS 运行时、输入和性能诊断能力。
-老金：Claude Code两周100万行背后，藏着19个坑没人提！》看到Claude Code两周写出100万行代码，很多人第一反应是：以后迁移、重构是不是能直接丢给 AI 跑？老金这篇文章把兴奋感往回拽了一下——真正值得学的不是“跑得快”，而是背后的规则书、裁判、任务账本和断点。长任务可以交给 AI 扩产，但完成标准、测试验证、错误回滚和最终验收，必须提前设计好。
-艾笑：把 Skill 做稳：我开源了 Skill Engineering 1.0》如果你已经写过几个Skill，大概率会遇到这种情况：刚开始能用，改几轮后边界模糊了、触发乱了、补丁越堆越多。作者开源的Skill Engineering 1.0可以帮你把Skill 从“能写出来”推进到“能稳定使用”。从会议纪要、GitHub Issue、Web 验收到研究证据包，详细展示了如何先定边界、再做验证、保留回归场景，让Skill真正变成可复用、可维护的Agent能力。
-Yangyi：FDE企业落地方法论：从专家知识到SOP》FDE（Forward Deployed Engineer，前沿部署工程师）由Palantir开创，核心是把工程师塞进客户的真实工作流里，用几周时间把隐性业务逻辑抽成可运行的软件。很多企业想学 FDE，却容易卡在“工程师不懂业务”这个误区里。有没有一个能让非专家几周就产生价值的产品内核、能不能把专家的隐性知识撬成可执行的 SOP、以及落地过程中专家凭什么配合你。本文把这三件事拆成一套可操作的方法论。
-科研人必装的 skill，帮你搞定科研全流程！》做科研项目最容易卡在“下一步该干嘛”：有想法，却不知道先定问题、查文献、提证据，还是写研究设计。RW Research Skill把科研流程拆成了18个Skill，用router 判断当前阶段，再带你推进文献发现、证据整理、创新点、数据/统计审查、论文写作、审稿回复和投稿准备。如果你也正在做科研项目，不妨来试试效果！
-一文讲透Skill》这篇文章把 Agent 和 Skill 的关系讲得很透：Agent像大脑，负责规划、判断和纠错；Skill像手脚，负责搜索、算数据、发邮件、生成文档。除此之外，还把Skill什么时候该调用、怎么选、怎么写描述、怎么防安全坑，以及一个早报Skill的落地思路串了起来。
-提示词越写越长，AI还是做不对？老金开源造Skill的Skill》提示词越写越长，AI 还是做不对？老金这篇文章戳中了很多 AI 重度用户的痛点：我们总以为多补几条规则，就能让 AI 更听话，结果只养出一份越来越厚的“祖传提示词”。老金开源的 Meta Skill Creator，更像是在帮你先踩刹车——先想清楚谁来用、交付什么、怎样才算可用。快来试试效果如何！
-从功能清单到执行链路：AI 时代 PRD 的写法变了》以前写PRD，很多人习惯列功能、写流程、补几句Prompt；但到了AI 功能里，这套明显不够用了。阿昆这篇文章讲得很实在：AI PRD真正要写清楚的，不是“让 AI 干什么”这么简单，而是它在哪一步介入、需要什么输入、输出怎么验、错了谁接手、边界在哪里。
-Cerebras 如何构建内部知识库》别再幻想把公司知识都搬进一个“唯一真相库”了，Cerebras 的做法更现实：让信息继续待在 Slack、代码仓库、文档、Jira 这些它本来就会出现的地方，然后用一套知识检索系统把它们串起来。上线3个月后，这个内部知识库每天被问 15000+ 次，员工、自动化流程和 Agent 都在用。这篇文章拆解了这个知识库到底是怎么做的：Slack线程怎么蒸馏、代码仓库怎么向量化、全文检索和向量检索怎么混合、结果怎么重排序、MCP又怎么让Agent 直接调用这些能力。
-Anthropic 工程师代码产出提升 8 倍：背后的上下文工程系统》如果你还在反复改prompt，却发现Claude总是猜错需求、改错文件、产出不稳，这篇文章很值得看。作者把Anthropic工程师代码产出提升8倍的关键拆解了下：真正拉开差距的不是模型变强，而是“上下文工程”。从 AGENTS.md、项目记忆、任务状态，到MCP接入 GitHub、Linear、Slack、Sentry，完整剖析了如何把 AI 从“靠猜的助手”，变成“带着完整信息干活的工程伙伴”。
-Claude Code是怎么设计出来的：下一代设计师负责什么丨Dive Club》Claude Code 的设计负责人Meaghan Choi在 Dive Club 的这次对话里谈到的，不只是按钮、页面或视觉风格，而是一套正在成形的新工作方法：怎样设计没有传统界面的产品，怎样让 AI 从执行工具变成组织成员，以及当做东西越来越容易时，设计师该把判断力用在哪里。 Claude Code 的设计过程，也许正提前揭示了下一代设计工作的边界。
-我做了 200+ 次用户访谈，只有这 5 个问题是真正有用的》很多团队做用户访谈，问了一堆“你觉得怎么样”“你愿意付费吗”，最后得到的却只是礼貌性答案。这篇文章把200+次访谈里真正有用的方法拎了出来：别问用户未来会不会用，要追问他上一次怎么解决、哪里最痛、花了多少时间或钱，最好直接看他现场操作。对做产品、出海、增长的人来说，这可以帮你让每一场用户对话都能落地指导产品迭代与定价。
-Kimi K3：智能的新前沿》Kimi K3 正式发布，它是一个2.8万亿参数模型，原生支持视觉理解，并拥有100万token上下文窗口。它主要面向长程编程、知识工作和推理等前沿智能场景而设计。 即日起，可通过kimi.com 、最新版Kimi 手机App 、最新版Kimi Work桌面客户端、Kimi Code和 Kimi API 来使用。
-蒸馏645篇文章，开源了这个公众号标题Skill！告别流量焦虑～》写公众号最头疼的，往往不是正文，而是标题：太平没人点，太猛又像标题党。刘聪开源了一个“公众号标题 Skill”，用645篇历史文章蒸馏出不同内容类型的标题套路，能按稳健准确、网感点击、专业权威、长期价值等方向生成候选标题，还会顺手标出标题党、术语堆砌、证据不足等等风险。很适合在发布文章之前帮你打开思路，少一点标题焦虑。
-WAIC即将开幕！全城Side Events打开小程序随时查》期待已久的 WAIC 明天就要正式开幕了！前两天，我们发布了为 逛WAIC 整理的两个网站：参访指南： waic-guide.waytoagi.com、Side Events 聚合站： waic.waytoagi.com。为了更方便大家用， 我们的WAIC Side Events小程序也正式上线了！不用记链接，打开一次后，就会自动进入「微信小程序-最近使用」。和网址功能类似，你可以查看活动详情 （包括主题、时间、地址等）、一键复制报名链接，也可以查看票券、通知 。
+AI视频入门——剪辑思维-转场-拉片提升审美》这篇文章非常适合AI视频新手、短剧创作者看。作者用《大话西游》《盗梦空间》《闪灵》等经典片段做拉片，拆解了正反打、交叉剪辑、跳切、空镜、匹配剪辑、闪回这些常用手法，再落回到在AI漫剧里到底怎么用。快来一起探索下！
+基于 MiniMax H3 Max 的 24 小时 AI 直播网站上线了》MiniMax H3 Max凭借超快的音视频生成速度，跨过实时AI直播的技术门槛。海外开发者借此打造出24 小时AI直播网站，观众发布弹幕指令即可实时改写剧情走向。虽然实时直播仍存在并发、画面一致性等等问题，但它把AI视频从一次性制作工具变成持续响应的动态内容系统，给创作者们也打开了全新交互的想象空间！
+AI音乐周刊 W.A 043》AI 音乐行业正迎来版权风暴与产品创新的激烈碰撞。多起高额版权诉讼搅动行业根基，合规已经成为所有从业者绕不开的命题。Stability AI 获得巨头加持完成融资，多款工具落地分段编辑、对话修歌、实时音频生成等实用能力，还有多篇前沿音频论文发布。一起来看看AI音乐赛道的最新变化。
+开源：350套排版布局 x 知识图鉴》做海报、封面、PPT、网页时，想让 AI 画得更准，或者和设计同事沟通得更清楚，都缺一套能直接指认的版式宝典。作者把原来整理的100种排版扩展到350种，按构图逻辑、视觉原则、网页UI、影视画面、中国传统构图、演示文稿等8类整理，还提供高清图、缩略图和CSV/JSON数据。找灵感、学构图、写提示词，都可以直接收藏这套开源图鉴。
+3678287
+7513665
+从 ReAct 到 Agent Teams：一个工程师视角的 Agent 协作机制思考》这篇文章是作者两个月的 Agent 开发实践沉淀，从第一性原理出发，探讨 Agent 的本质、当前多 Agent 协作架构的不足，以及如何借鉴人类组织经验设计真正的 Agent Team 机制。
+在Uber规模下高效运营软件工厂》很多团队一用上Coding Agent，最先感受到的不是“效率飞升”，而是 token 成本、工具上下文、模型选择和会话失控一起冒出来。Uber 则是把AI 编程真正当成一座“软件工厂”来运营。这篇博客将介绍他们如何思考软件工厂：智能体会话运行的四个层次、他们用于分解支出的成本公式、他们如何衡量每一项，以及如何在每一层优化这些项。
+快速学习的原则》很多人学AI、编程、写作时收藏教程、刷视频、记笔记，真要动手还是卡住。问题往往不在学得少，而是没有把知识变成可用能力。作者这篇文章把如何快速学习拆成7个原则：先动手做，尽快拿反馈；遇到问题先挣扎几分钟，再去问 AI；在真实问题里即时学习；用复述和教学检查自己是否真的懂了。快来从今天开始实操起来！
+8.24—8.30｜本周顶级 AI 论文》这周精选的10篇AI论文有个很明显的风向：大家已经不只盯模型参数和榜单了，而变成Agent怎么评估、怎么记忆、怎么积累经验，以及怎么在长任务里不丢关键规则。从Netflix评判器生命周期、NVIDIA的Skill Lift，到上下文管理、JIT-Agent、Prime Agent、自我改进、安全规则压缩、真实实验室里的Co-Scientist，再到技能库投毒风险，基本把本周Agent工程的关键线索串了一遍。
+关于Product Hunt，你只需要这一篇终极指南就够了》很多出海团队最头疼的，是产品上线后第一批用户从哪来。Product Hunt 看起来像“发一下就有流量”，真打过才知道，物料、日期、Hunter、Feature、票数和用户承接，每一步都影响结果。作者也希望通过本篇内容做一个总结，提供一个行动概览，这样未来更多团队能在需要的时候快速获取一批低成本的注册来推动自己产品发展。
+从 Microduck 的开放实践出发：怎样一步步做出一台小型机器人》最近发布的开源双足具身智能机器人Microduck ，会走路、会起身。关键是还公开了软件和强化学习训练代码。那么如果想借此做出一台自己的小型机器人，应该从哪里开始？每一步为什么要做，做到什么程度才算过关？CY这篇文章带你一起详细拆解下！
+万字长文 | 最强 AI 工作台 Cherry Studio 从入门到精通（含本地模型部署）》身边把 AI 玩得比较深的朋友，有不少在用Cherry Studio。作者这篇文章就聊聊它能做什么，以及怎么把这套工作台用顺手。
+小白AI入门必学的：66 个 AI 高频词（人话版）》作者整理了 66 个我认为的高频 AI 词汇，用说人话的方式解释清楚。每个词都会告诉你：它是什么、平时会在哪里遇到，以及用什么生活场景最好记。
+OpenAI产品负责人：AI 能力已经过剩，很多人却还困在小目标里丨Lenny’s Podcast》在这场访谈里，OpenAI 产品负责人Tara把 AI 产品正在经历的变化分成三段：Chat → Agent → 长期在线 AI 同事。这个变化并不只属于OpenAI。它会重新划分产品经理、工程师和普通知识工作者的日常。一起来看看！
+3678288
+7513666
+图解大语言模型部署》很多人自己部署大模型时，最容易只盯参数量和显卡型号，结果发现：并发排队、长上下文掉速、成本也算不清。这篇文章把TTFT、TPOT、吞吐、KV Cache、P95/P99、量化、硬件选型讲得很清晰，或许对你有帮助！
+吴恩达：AI最大的机遇并不在你想象的地方丨Silicon Valley Girl》过去十多年，吴恩达参与创建Google Brain、联合创办Coursera，并通过机器学习课程教过约800万名学习者。这其中的很多人对AI的注意力还停留在“岗位会不会被替代”、“AGI 会不会失控”这些大问题里。而在吴恩达看来，未来职场的核心竞争力，不在于谁会调用工具，更在于谁能发现问题、构建解决方案，并对结果负责。
+第四次GEO公开课｜官网正在成为GEO主阵地：从企业事实到AI引用》GEO公开课第四期把官网GEO拆成一条可落地生产线：整理企业知识库，梳理用户问题，把答案放进产品页、案例页、对比页，再围绕“可见、可信、可引用”持续复测AI引用、询盘和转化。这套系统建立以后，价值也会超出 GEO。销售可以用，客服可以查，新员工可以学，市场和公关能够共享统一口径，AI 也能获得稳定的一手信息。快来试试！
+Warp 如何让 Agent 自我进化》让 Agent 做Code Review，最容易出现的卡点是它不懂你的项目习惯、团队规范和历史踩坑；你这次提醒过的问题，下次它可能照样忘。Warp这个终端工具一开始让 Agent review 代码，效果并不理想。后来换了个更聪明的做法：用两个 Skill 跑闭环，一个负责审代码，一个自动收集工程师在 PR 里的高质量评论，再把这些真实反馈反向更新审查 Skill。人只需要照常写评论，Agent 就能持续吸收团队经验。
+WebMCP 详解》谷歌和微软很少达成一致。但现在它们正在构建同样的东西来修复智能体访问网页的问题，这可能是多年来网络最大的变革。一起来看看！
+Codex 进阶应用教程：普通人最常用的 10 个工作场景》Codex 适合处理有明确材料、具体步骤和可检查结果的任务。它可以读取文件、整理信息、运行命令、操作网页和软件，也可以把反复出现的要求保存成固定流程。下面十个场景按照普通人的实际使用顺序展开。每一节都会讲清任务为什么容易出错、怎样交给 Codex，以及完成以后检查什么。
+WorkBuddy 超保姆级入门教程-附图解实操 【万字长文】》这篇WorkBuddy 超保姆级入门教程就是给小白准备的：从下载安装到第一次打开界面，哪些按钮该看、哪些入口先不用管、怎么照着截图跑通第一个任务，都会一步步拆清楚。
+10 个 Skill 搭建日更爆文的公众号写作系统》如果你也想做自媒体的话，作者这篇文章不容错过！作者把三年400多篇原创经验拆成了10个Skill，覆盖账号定位、爆款分析、每日选题、长短文写作、标题生成、封面配图、逻辑图和整篇排版，还延伸到视频复用、多平台分发。想把日更爆文的，可以试试这套流程。
+KV、前缀、提示词与语义缓存：LLM 中四类缓存的清晰解析》这篇文章把KV缓存、前缀缓存、提示词缓存、语义缓存拆得很清楚。你需要了解的是你的输入token在哪里被重新计算，以及如何应对。本文从基本原理出发，覆盖四层缓存及其权衡、它们交互时会发生什么，以及阻碍缓存复用的五个最常见问题。
+一人公司做到数百万美元：从验证、产品到获客的完整系统丨Product Faculty》内容分发工具Blotato的开发者Sabrina用一条30秒TikTok验证需求，把第一版砍到只剩一个功能，上线10天做到1万美元月度经常性收入，不到两年把业务做到了数百万美元年收入。AI帮她压缩执行成本，但产品判断、功能取舍和责任始终在人手里。想知道“一人公司”怎么少踩坑、先跑出确定性，可以认真看看她每一步的具体做法。
+吴恩达：AI 工程技能图谱：软件工程基础》Agent可以帮你写代码，但真正决定项目能不能跑稳的，还是数据、架构、安全、部署、监控和扩展这些基本功。
+AI 做海报、HTML 构图手册：16 种控制网格、图文关系与信息密度的海报构图——下册》这篇下册会同时给你两套表达：一套写给图像模型，一套写给 HTML / CSS。读完以后，你应该能从第 17–32 种里选出一个主构图，再把它落成可检查的网格、图文层级或节奏规则。
+万字长文 | Pi Agent 零基础实操：从打开终端到完成第一个真实任务》这篇很适合 Pi Agent 小白从0上手。作者用一份会议记录带你跑完整个流程：新建安全练习目录、安装登录、看懂界面，用@引用文件生成行动清单，再回到命令行独立验收结果。后面还讲了AGENTS.md、会话管理、Skill/Extension/Package的区别。
+万字长文｜Agent 从入门到精通（附实战：论文整理 Agent 搭建）》这篇文章很适合Agent新手和想把Codex用到真实工作的运营、研究者、开发者看。作者先解读了大模型、Tool/API、Agent Loop、MCP、CLI/桌面端这些概念，然后用“论文资料整理 Agent”带你落地，最后沉淀成 Skill。
+前Figma工程师是如何用 AI 进行设计的》
 全文评论
 用户6514
 2023年6月7日
@@ -162,7 +160,7 @@ WAIC即将开幕！全城Side Events打开小程序随时查》期待已久的 W
 用户907
 更新日志能邮件订阅吗？
 用户4858,用户3991,用户3444,用户627,用户627,
-+31 人
++32 人
 用户4392
 2024年3月6日 （编辑过）
 @用户907
@@ -191,7 +189,7 @@ WAIC即将开幕！全城Side Events打开小程序随时查》期待已久的 W
 2023年6月13日
 这不比那些割韭菜的AI/ChatGPT社群好太多了！
 用户9838,用户9829,用户7958,用户2221,用户3712,
-+74 人
++77 人
 用户8567
 不错不错.
 用户2214,用户1285,用户4794,用户4769
@@ -204,6 +202,7 @@ WAIC即将开幕！全城Side Events打开小程序随时查》期待已久的 W
 用户1308
 2023年6月16日
 cool
+用户2214,用户1285,用户4794,用户4769,用户8372
 用户3098
 添加小助手了，还没入群～
 用户2214,用户1285,用户4794,用户8802
@@ -311,7 +310,6 @@ nb
 2023年11月8日
 做这个内容的人  功德无量   我只能用功德无量来表达   还有没有更有力量的词汇？
 用户8959,用户6454,用户1744,用户4992,用户2472,
-+9 人
 用户9736
 @用户9326
 死后配享太庙（是不是太夸张了）
@@ -323,19 +321,26 @@ nb
 用户5796
 怎么赞美作者都不为过，系统性时效性兼顾~~爱了~~~❤
 用户4858,用户6332,用户4992,用户7948
-2026 年如何打造多模型 AI 团队》你是不是也在 Claude、ChatGPT、Gemini之间来回横跳，每换一个工具就要重新解释一遍背景？这篇文章聊的就是这个高频痛点：AI 工具越来越强，但记忆还是割裂的，最后人变成了“搬运上下文的 API”。文章分享了一个跨模型记忆工具：Unibase Memory，可以把有价值的对话、网页和项目上下文保存成可搜索、可注入的记忆，让不同AI接着彼此的工作继续干活。
-Granola创始人：一家15亿美元AI公司，押注下一代工作方式丨Every》这一期访谈的嘉宾是Granola联合创始人兼 CEO Chris Pedregal，Granola 因AI会议记录出圈，公司估值也已到15亿美元量级。这场对话最有价值的是Chris如何看待下一代工作软件：当会议、邮件、Slack 和代理都变成上下文的一部分，产品真正要争的，可能不再是“帮你记笔记”，而是成为人和 AI 协作时最可靠的工作入口。
-7128843
-宝玉的 字幕转录翻译剪辑 Skill —— BaoCut（仅支持 Mac）》宝玉最近做了一个字幕转录翻译剪辑 Skill —— BaoCut（仅支持 Mac）。借助这个Agent Skill，可以转录视频、对转录结果识别Speaker、润色（纠正错别字口癖等）、也可以根据转录结果对视频进行简单的剪辑，比如删除口癖、重复等。
-超适合收藏的AI人像生图合集：12种创意玩法一次打包（附提示词）》今天这篇文章小歪整理了12种AI人像图片创意玩法，做头像、朋友圈配图、旅行记录、表情包都能用。每种都附了完整提示词，可以适用于GPT Image 2、谷歌Nano banana、即梦、豆包、小云雀 等，直接复制抄作业就行。每个案例都只放了效果图，大家使用的时候是需要根据不同场景，上传自己的真人照片的，才能对人像进行魔改。
-开源TODO Skill，我这三年用AI做知识管理和代办的经验都在这了》长期囤积素材、苦于选题杂乱排期的内容创作者，卡尔这套开源待办工具不容错过！它可以完美解决素材堆积、重复选题、日程同步等等难题。仅仅设置三类文件夹即可运行，还可以进行个性化改造，快来上手试试。
-用AI做了一个月视频，想跟你分享这套没人讲的心法》最近刷到不少教 Codex + Remotion 做视频的教程，然后你照着做，发现做出来的东西根本没法发。只有画面没有声音，或者配了音但音画对不上，画面就是一页一页的 PPT 在翻，满屏都是字。关键环节还是整体框架：每一步该做什么、该盯什么、坑在哪。框架对了，剩下的交给AI就行。
-YC设计负责人：AI 正在重写设计师的工作流丨Y Combinator》Y Combinator的设计负责人在这期对话里展示了自己最近做的三个项目：用Paxel观察人们如何与编码Agent协作，用Sodazine记录旧金山的城市故事，再用一套新的设计工具为Startup School制作视觉资产。对设计师、产品经理和工程师来说，这里面最值得关注的并不是某个工具的功能，而是设计师开始拥有了一种新的工作姿势：把想法说清楚，把上下文准备好，再为自己造出一组随时可以丢弃的工具。
-3个半月，从入驻X、组织GEO大会，到GitHub Star 10000+的全记录》姚金刚这篇个人复盘记录了105天的完整成长轨迹，用实打实的数据展现了 AI 赋能下的内容与开源成果。从入驻 X、组织 GEO 大会，到连续开源 GEOFlow、TokHub、Meta Skill 等项目，他把想法验证、产品开发、发布反馈的周期大幅压缩。这篇文章记录的，就是这三个半月里，他做了什么、为什么做，以及在这个过程中得到的一些判断。
-如何让飞书真正替你干活？「AI绝活大会」干货替你整理好了》上周末，400 多位朋友聚到杭州，参加了飞书的 「AI 绝活大会」 。这次活动非常丰富， 第一天是创作者小聚，人人都来动手 vibe coding，现场诞生了 23 个绝活；第二天将近300人分组动手， 90 分钟搓出来了 35 个作品。我们整理了AJ、飞书开放平台产品经理-牛晶泾、张咋啦三场分享的完整内容，快来看看！
-我用 Codex + Remotion，做了一条唐朝纸片分层动画》很多人做“纸片风视频”，只是把一张完整图片放大、缩小，再加一点镜头移动。这样能动，但没有层次。真正的纸片分层动画，核心不是生成一张漂亮的图，而是把背景、建筑、主角、配角和前景分别做成独立素材，再让每一层按照不同节奏运动。这篇教程作者以自己做的唐朝视频为例，把完整操作流程拆开讲清楚。
-RAG：从前世今生到技术全景》这篇文章把RAG从头到尾讲透。它从哪儿来，这几年怎么一步步变的，技术上到底怎么转起来，怎么自己动手搭一个最小的，怎么判断它好不好，以及在2026年这个上下文窗口动辄上百万、智能体满天飞的时候，它还值不值得你投入。
-这套 AI 第二大脑，会让你聪明到像开了挂丨Dan Martell》很多人每天都在和AI对话，却仍然觉得它不懂自己。新会话一开，项目背景、沟通偏好、过去做过的决定又要重讲一遍。Dan Martell在这期视频里拆解了自己用于管理多家公司和日常事务的AI大脑：把个人资料放进AI能长期读取的文件系统，再用固定结构持续整理。对普通使用者来说，这套方法的价值是：少写重复提示词，让AI获得足够上下文，逐步接手会议整理、信息检索和日常执行。
+Tutti · VM 首发 ｜多人、多 Agents 协作的 Google docs 时刻》Tutti· VM是行业首个【实况级】多人多agent并行协作空间，在不迁移现有工具和使用习惯的前提下，将个人、临时的 Agent 运行环境，升级为持续存在的团队共享工作现场；并且把串行交接变成实时并行协作。文中附有内测邀请码，感兴趣的小伙伴儿可以来体验下！
+这9个Skill，把我的图像审美拉到了一个新高度》作者整理了下面这9个Skill，带你一次性理解图像背后的审美逻辑：哪些适合一句话出海报，哪些必须上传原图；纸刊、像素、低饱和、解构、手绘、抽象、旅行手账各自怎么选。
+一篇讲透Agent自进化飞轮怎么搭：评测→记忆→落地→控制》2026 年Agent自进化开始从论文和框架走向工程现场，但很多团队还在把评测、记忆、Skill更新拆开做，结果就是Agent 用了半年还像新手。作者这篇文章基于对 Anthropic 递归自改进报告、斯坦福 CS329A 课程、EvoAgentX 等开源框架的深度研读，结合业界多个团队已验证的优秀实践，提炼出一个完整的、可落地的、经过验证的工程闭环。
+万字长文：Deepseek Harness 一文全看懂！！》本文附有很多名词解释与图片表达，可以让想学AI但苦于不懂术语、基础不好的人或懂技术但不太了解DSH的人，都能获得对Deepseek Harness的深度认知！
+Anthropic 官方指南：AI Native 开发手册》Anthropic 官方发布的AI Native 开发手册，适合研发团队、技术负责人和正在把Claude/Codex接进工作流的人看。他们把软件从一个想法变成线上产品的完整过程：规划、设计、构建、测试、部署、运维 详细拆解了下。
+GLM-5.3-Flash：前沿智能进入普惠时代》GLM-5系列的首个原生多模态模型：GLM-5.3-Flash (320B-A18B)正式上线并开源。320B 总参数、18B激活，编程体感对齐Claude Opus 4.8，价格却压到Opus 4.8 的1/40。更值得关注的是背后的工程路线：混合注意力机制降低成本，视觉反馈进入代码循环，还跑在国产芯片集群上。一起来测试下真实效果如何？
+Hello Plugin：我把 DeepSeek Harness 插件开发全链路跑了一遍》或许大家也看过不少 DeepSeek Harness 的分析文章和架构介绍，但只要没有亲手把插件跑起来，对它的理解就总像隔着一层皮。作者沿着官方文档亲手做了一个Hello Plugin：从最小插件、工具注册和配置校验，到组合包安装、profile 加载、发布与卸载，把插件开发的完整链路实操了一遍。快一起上手实操试试！
+7513667
+「豆包工作」+ 飞书完全指南》豆包工作这次把入口直接放进飞书：云文档、多维表格、群聊、会议纪要，都能在权限范围内被调用起来。这篇文章把豆包工作怎么访问、飞书登录后能做什么、隐私边界和套餐额度讲得很清楚。
+AI 做海报、HTML构图手册：16 种控制焦点与动势的海报构图——上册（附样图和提示词）》这篇文章适合三类人：经常用 AI 生海报的人、要让 AI 写 HTML 落地页的人，以及不会专业设计软件，但需要把视觉需求讲清楚的人。读完以后，你会知道该选哪种构图，也知道怎么把它写进提示词。
+我扒完了 GitHub 上 55 个 AI 成片产线，得出一个结论》作者最近在做 skill/agent 驱动的 AI 成片产线，顺手把 GitHub 同赛道全扒了一遍，分成视频 Skill、一站式成片平台、分镜/导演画布三类，总共55个。
+我的 AI 原生开发流程：一个真实案例的完整复盘》代码已经越来越像最容易交给Agent的环节，真正考验人的是做不做、怎么做、做完好不好用。宝玉这篇文章从BaoCut的远程转录功能出发，复盘了一套 AI 原生开发流程：可行性分析、设计文档、高精度原型、Agent 实现、自验证，再由人像普通用户一样黑盒测试。适合开发者、产品读，能帮你把 AI 从“写代码助手”变成完整开发协作系统。
+《100 个问题》系列丛书》都说提示词已死，AI 越聊越笨。作者整理了《关于提示工程的100个问题》，带你看清提示工程当下真实面貌。
+什么是Harness工程，为什么我要关心？》“零行手写代码也能发布软件”，听起来很厉害，但关键其实在 Harness：给Agent配好沙箱、权限边界、测试反馈和急停机制，让它写完代码后能自己跑测试、看报错、再修复。谷歌官方的这篇文章详细拆解了下Harness到底是什么？
+OpenClaw创始人：“乐趣就是速度”丨Y Combinator》这期对话复盘了OpenClaw从一小时做出的WhatsApp中继，到周下载量 470万、社区PR爆炸、配置项堆到9500个的全过程。里面最值得开发者和 AI 创业者看的，是Peter对增长、依赖平台、安全边界和产品失焦的反思：热度会来会走，真正要守住的是你自己的判断、使用频率和创造乐趣。
+Fish Audio,Trans-n与PnP日本：日本AI是本地化与速度的接力赛｜Linkloud 东京沙龙实录（二）》Fish Audio联合创始人Rissa、Trans-N 创始人Harry，以及来自Plug and Play Japan的投资人 Rebecca。三位分别代表了 AI 语音平台、企业级 Agent 产品、国际投资机构的本地分支三种视角。这次沙龙的话题从为什么选择日本市场、如何进入市场、护城河在哪里来切入，一起看看他们具体都聊了什么？
+AI音乐周刊 W.A 042》AI 音乐这周最值得盯的，已经从“谁的生成效果更像歌”，走到了版权、分发、标识、生产工具一起重构。环球音乐推出单曲级二创权限、输出 AI 专利，Apple Music 即将增设 AI 生成音乐标签，行业版权规范正在加速成型。多款实用创作工具迎来重磅更新，覆盖 DAW 插件、音频转 MIDI、离线歌单、开源歌唱合成。还有五篇前沿论文覆盖模型评估、唱跳视频、符号音乐分词等方向。
+出门不带电脑，也能随时调用家里的知识库：MacBook + Mac mini + iPhone 协同保姆级教程》出门还得背电脑，或者让笔记本在家常亮，其实很别扭。更理想的状态是：家里的Mac mini当主脑，MacBook负责深度创作和开发，iPhone 变成随时下指令的遥控器。这篇文章作者把完整的配置过程写了出来，包括踩过的每一个坑。步骤会写得很细，新手照着做就能跑通。
+一条可用视频到底要抽几次？我用3款模型对比了7组案例（附提示词）》小歪用Seedance 2.0 fast、MiniMax H3、Wan 3.0跑了7组真实案例：晨起Vlog、古装微表情、豪门短剧、情侣对峙、女团舞、四人运镜、史前灾难片。不只是单纯地看画质，还对比了短剧节奏、人物表情、动作卡点、多人物稳定性、大场景融合度，以及API和本地部署怎么选。来看看最近更新的这几个视频模型，哪个更适合你？
+有趣的小红书图文自动排版Skill，使用教程来喽！》很多做小红书/小绿书图文的人，最耗时间的往往不是写内容，而是排版、配图、改字、对齐，还要保持自己的IP风格稳定。阿真这篇把“小红书图文自动排版 Skill”的搭建流程拆解了下，后面只要丢文章或飞书链接，就能自动拆页、渲染、导出2K图片。内容创作者们可以上手试试！
 阅读更多：
 🌟
 说明：
@@ -346,6 +351,87 @@ RAG：从前世今生到技术全景》这篇文章把RAG从头到尾讲透。�
 3.
 飞书群内置 AI 智能机器人，可以回复任何与 AI 相关的问题，欢迎加入。
 如果您对「飞书」这款效率工具感兴趣，或者您希望结交各行各业志同道合的朋友和他们交流企业/个人效率的提升，诚邀您访问「飞书官方社区——飞行社」
+如需下载研究报告，我们诚邀您加入知识星球：
+•
+数百份涵盖 AI 各个方面的报告，并提供内容概要
+自 2023 年上半年建立以来，保持长期活跃更新
+扫码右侧二维码，加入知识星球
+更多
+合作与咨询
+AIGC 周刊
+歸臧整理的 AIGC 周刊
+关注 AI 的朋友每周必读
+野菩萨
+AIGC 社区野神殿创始人
+AI 艺术探索者
+麦橘
+麦乐园 MAILAND
+𝐦𝐚𝐣𝐢𝐜𝐌𝐈𝐗模型的作者
+三思
+AI 数字艺术家
+视觉设计师
+3678289
+7513669
+万能的小七姐
+连续创业者
+Prompt 版块共建者
+硬地骇客
+三位 10 年+创业者
+podwise 开发者
+小互
+「互联网的那点事」
+微博互联网观察家
+ZHO
+赛博禅心
+最新最快的 AI 资讯
+作者大聪明
+张蔚
+华兴资本经理
+架构和投资版块共建者
+向阳乔木
+热爱分享，永远好奇
+AI 高质量社群组织者
+orange
+AI 领域产品经理
+充满好奇心
+Web3 天空之城
+推荐 B 站与微信公众号
+高质量 AI 内容原创者
+Ragnar 瑞哥那
+Base 上海 AI 商业社群
+TEDx AI 演讲嘉宾
+INDIGO TALK
+INDIGO 数字镜像播客
+逻辑严谨、思考深入
+云中江树
+AI 算法工程师
+LangGPT 项目作者
+陈财猫
+Prompt Engineer
+《进阶提示工程入门》
+建筑师｜ComfyUI设计师
+汗青
+产品经理｜AI设计师
+海辛
+AI艺术家
+阿文
+白马少年
+AI视觉设计师
+Mr. 喜
+ComfyUI设计师
+汤团猪
+唐百万
+AI数字艺术家广告创意人
+Snap
+guahunyo
+科林
+ComfyUI开发设计师
+OU椰🥥冬
+🌱郭佑萌
+Rui
+trance
+电子酒
+AI春晚导演
 
 ## 页面链接
 
@@ -361,14 +447,14 @@ RAG：从前世今生到技术全景》这篇文章把RAG从头到尾讲透。�
 - [📺直播共学](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#I1H6dKgDGoXgHcx4lRCcHU9jncf)
 - [🎡近期活动](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#MUANdAGHboyWAfxMhnVcOiFpn2d)
 - [🎏 近 7 日更新日志](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#ZweodGwa8oKukcxBhRncSEFCnlx)
-- [7 月 21 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#OxwWdfnL0oRsCWxcdpVcDNVqnLe)
-- [7 月 20 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#HPV3dOj1vovj1Kx37JucwCKInJg)
-- [7 月 19 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#VR2TdCCc8oILlkxPar7c8Xx0nDh)
-- [7 月 18 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#D4IUdR00horzBZxgl2JchGHzngh)
-- [7 月 17 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#QqwddaoQso6aVvxtvnRc0yRSnhs)
-- [7 月 16 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#FM49d5ztwogf0hxWGJlcuxbynwc)
-- [7 月 15 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#E7SMdxOJLouXgcxman8cdV08nMf)
-- [7 月 14 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#OEyndpEOQobzMVxIMoDcsrBAnde)
+- [8 月 31 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#GXuSd6cRaoxofExO1fAcac0XnSf)
+- [8 月 30 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#QIvad8L53onei6xEUpIczTobn4f)
+- [8 月 29 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#S74odG7sPoUvCPxsjkVcEKVDnTg)
+- [8 月 28 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#WpP4dxzAuocnSQx18flcjMTrnIf)
+- [8 月 27 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#RZNQdcLgCosHjmxGcbDc8LQLnvh)
+- [8 月 26 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#NrkXdGnZMoBjXuxPUaucjupMnYc)
+- [8 月 25 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#PY9RddPbYooMROxwMb0cF5ZGnQh)
+- [8 月 24 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#CAXodQDL4o7W8CxCN7ccQTubnAh)
 - [💬 飞书 & 微信交流群](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#CgQrd8bYjoiCxsxTi8acMQDXnnd)
 - [🏠加入WaytoAGI-填写后加入飞书/微信群](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#NcbgdN9vaop6YVx7z7ucepcenEe)
 - [🙏 友情推荐](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#OGQCdeCcVoelgmxq8ulcEnHDnvf)
@@ -401,67 +487,83 @@ RAG：从前世今生到技术全景》这篇文章把RAG从头到尾讲透。�
 - [飞书客户端](https://waytoagi.feishu.cn/wiki/KKF6wrrHBiXvJzkxP0wcD8dyn5f)
 - [🌈
 通往AGI之路](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e)
-- [订阅日程](https://www.feishu.cn/calendar/share?token=e2b16267282604efa375f8829e3d2cc7)
+- [订阅日程](https://www.feishu.cn/calendar/share?token=07879f2eff513ce5e333cd98373f7f60)
 - [立即加入](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#GjhAd91P5o988vxjOYwcdLPRn3c)
 - [立即投稿](https://waytoagi.feishu.cn/share/base/form/shrcndlVeIpGvhhWvnsVfMhuFbf?iframeFrom=docx&ccm_open=iframe)
 - [🏄‍♀️
 第七期：AI硬件基础训练营](https://waytoagi.feishu.cn/wiki/YUfhwbwdUiYXtYkCru7cfKaGnWb?from=from_copylink)
 - [晚8点共学](https://waytoagi.feishu.cn/wiki/UKqNw8Un0iaCsXkECfCcNkl0nGc?table=tbliNls1Wi1mV6bY&view=vewcZAYD0u)
-- [直播回放](https://waytoagi.feishu.cn/minutes/obcnw943eaqs6p5p475jgl95)
-- [直播回放](https://waytoagi.feishu.cn/minutes/obcnul56xlh1ub111e5r6n2j)
-- [直播回放](https://waytoagi.feishu.cn/minutes/obcns7481y72z6nru5297443)
-- [直播回放](https://waytoagi.feishu.cn/minutes/obcnw9y8i44263lr5x947yw5)
+- [直播回放](https://waytoagi.feishu.cn/minutes/obcnh8gu6m2fe952z6k94n9h)
+- [直播回放](https://rcnfxx8rsgm0.feishu.cn/minutes/obcnf69tcrtve9dvgxezeh1f)
+- [直播回放](https://waytoagi.feishu.cn/minutes/obcnfh8w689o41n7ijs55gv1)
 - [🥇
 WaytoAGI近期活动备份](https://waytoagi.feishu.cn/wiki/So9cwfj9yiuZJ8kSfLZce7a8nrf)
 - [4.5 历史更新](https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc)
-- [想用Codex做科研，可以先从这9个Skills开始](https://waytoagi.feishu.cn/wiki/MvDlwLlsViMbVHkb5RicvTXQnrg?from=from_copylink)
-- [AI写小X书为什么总像硬广？老金开源个Skill来帮你！](https://waytoagi.feishu.cn/wiki/PaAYwNcQhiXaIekWTLIcXHiEnSf?from=from_copylink)
-- [开源n8n-to-skill，我的工作流可以体面退休了](https://waytoagi.feishu.cn/wiki/M3MpwhpMzizRV5k7MuIcGpvBnhe?from=from_copylink)
-- [解锁 Kimi K3 的20种创作玩法](https://waytoagi.feishu.cn/wiki/OgyCwKgZoi9GppkHinmcKDNlnmb?from=from_copylink)
-- [聊近期 Agent 模型，以及我的选用建议](https://waytoagi.feishu.cn/wiki/XSAlw6ieCi8e9ukIW5TcxL6pnJb?from=from_copylink)
-- [具体任务怎么变成 AI 工作流？这篇讲清楚](https://waytoagi.feishu.cn/wiki/EMsPw08laiVADUki3mUc56uHn5b?from=from_copylink)
-- [AI音乐周刊 W.A 037](https://waytoagi.feishu.cn/wiki/IkCswgzVKilCCjkTsbbcHN76neh?from=from_copylink)
-- [从一句话到一个动作：MiniCPM-Robot 如何让机器人真正执行指令](https://waytoagi.feishu.cn/wiki/IqMlwtgphiTRggkWglmcnrxSn5f?from=from_copylink)
-- [一个人如何管理几十个AI程序员？](https://waytoagi.feishu.cn/wiki/OcJEwOWBOibXLzkHAI6clcM5n7g?from=from_copylink)
-- [Kimi K3 火到官方暂停会员订阅？我亲手测了一波，价格、入口、案例、提示词，看这篇就够了](https://waytoagi.feishu.cn/wiki/R5nzwYC8Ci0NyEkOLj4cPIW1ngF?from=from_copylink)
-- [基于 Claude 的图谱工程：从零基础到图谱架构师的 14 步路线图](https://waytoagi.feishu.cn/wiki/HYmswtgG6i0UMhkLXebcfdQlnue?from=from_copylink)
-- [Netflix产品与技术负责人：AI时代为什么更需要系统型人才丨Lenny's Podcast](https://waytoagi.feishu.cn/wiki/Sg53wdDsOifJEmku3fLckWdJnLu?from=from_copylink)
+- [AI视频入门——剪辑思维-转场-拉片提升审美](https://waytoagi.feishu.cn/wiki/BSQUwrvyMi87ejkbw4Hc4jwnnOe?from=from_copylink)
+- [基于 MiniMax H3 Max 的 24 小时 AI 直播网站上线了](https://waytoagi.feishu.cn/wiki/SixAw5cnjiz7fCkToQzc90Xyn2b?from=from_copylink)
+- [AI音乐周刊 W.A 043](https://waytoagi.feishu.cn/wiki/HBvnwPbDPiZ8Yokrhx8cBKAinrb?from=from_copylink)
+- [开源：350套排版布局 x 知识图鉴](https://waytoagi.feishu.cn/wiki/SVg0wvyiqiFZ4Ckz20HcvRSMnAb?from=from_copylink)
+- [从 ReAct 到 Agent Teams：一个工程师视角的 Agent 协作机制思考](https://waytoagi.feishu.cn/wiki/P6p1wDQ3yipgrUk6KEEcuTU5nIb?from=from_copylink)
+- [在Uber规模下高效运营软件工厂](https://waytoagi.feishu.cn/wiki/XNNnwj5ypiAM9BkP9I7cR5uYnwc?from=from_copylink)
+- [快速学习的原则](https://waytoagi.feishu.cn/wiki/GV9SwlGNriE8F5kx93lc9yASnub?from=from_copylink)
 - [🥇
-7.13—7.19｜本周 AI 论文精选](https://waytoagi.feishu.cn/wiki/Nu7Tw3E9dik72vkBEpTc76BMnGv?from=from_copylink)
-- [从Loop Engineering到Graph Engineering：AI 智能体架构转变真正意味着什么](https://waytoagi.feishu.cn/wiki/SGrmw6eRCiAGE1k7viscq7rInCg?from=from_copylink)
-- [AI 发展了 4 年，把应用发展没了？| 42章经](https://waytoagi.feishu.cn/wiki/GRvAwMETHiEvfok4i3JcgOrrnad)
-- [LangChain开源了软件工程智能体工厂](https://waytoagi.feishu.cn/wiki/EK1pwrpM1ie6OHkT8mMcdtwanpf?from=from_copylink)
-- [Codex Micro状态键盘，我做了个Codex＋CC版](https://waytoagi.feishu.cn/wiki/Z17vw0LpsikjSbkI5I4cGgGin2c?from=from_copylink)
-- [如何打造能够自我纠错的 AI 循环？](https://waytoagi.feishu.cn/wiki/Xl34wSQqbiG71oku9CIcSPZ7nQd?from=from_copylink)
-- [如何快速学习一门新的编程语言：以 Rust 和 Go 为例](https://waytoagi.feishu.cn/wiki/Bvkbw4bzBiv4YXktcUSc4Zvgn38?from=from_copylink)
-- [智能体如何真正使用浏览器：CDP（Chrome DevTools Protocol）指南](https://waytoagi.feishu.cn/wiki/Ac6nwuLyJi3IDNk2Sc0cdAQXnAf?from=from_copylink)
-- [老金：Claude Code两周100万行背后，藏着19个坑没人提！](https://waytoagi.feishu.cn/wiki/MLKVw0orgidcLckjO8tcOC0Dnlv?from=from_copylink)
-- [艾笑：把 Skill 做稳：我开源了 Skill Engineering 1.0](https://waytoagi.feishu.cn/wiki/R7aewWK3kiAYNnk8W06cAFswnGc?from=from_copylink)
-- [Yangyi：FDE企业落地方法论：从专家知识到SOP](https://waytoagi.feishu.cn/wiki/IOOzwBMYjipe4HkY2SHcixEVncd?from=from_copylink)
-- [科研人必装的 skill，帮你搞定科研全流程！](https://waytoagi.feishu.cn/wiki/VDPRwvzvciYEWxknYBecwdbvnJf?from=from_copylink)
-- [一文讲透Skill](https://waytoagi.feishu.cn/wiki/FIK0wkpdjiOOn0kvjXmcNSROnTc?from=from_copylink)
-- [提示词越写越长，AI还是做不对？老金开源造Skill的Skill](https://waytoagi.feishu.cn/wiki/VsaZwHsVGiI4ynkIGeXcGu6jnac?from=from_copylink)
-- [从功能清单到执行链路：AI 时代 PRD 的写法变了](https://waytoagi.feishu.cn/wiki/Ajq7wnMsgiz69tkkOAycgKNwnAd?from=from_copylink)
-- [Cerebras 如何构建内部知识库](https://waytoagi.feishu.cn/wiki/DQKTw3XAyi3rKekevihcjoPYnEf?from=from_copylink)
-- [Anthropic 工程师代码产出提升 8 倍：背后的上下文工程系统](https://waytoagi.feishu.cn/wiki/TWsGw8rEficV83kWS5qciK1Qnng?from=from_copylink)
-- [Claude Code是怎么设计出来的：下一代设计师负责什么丨Dive Club](https://waytoagi.feishu.cn/wiki/JPQIwGmEYiQP7HkCM3cc09NEnzc?from=from_copylink)
-- [我做了 200+ 次用户访谈，只有这 5 个问题是真正有用的](https://waytoagi.feishu.cn/wiki/VxGFwipzNi4PJpksbZgc8AlQn6e?from=from_copylink)
-- [Kimi K3：智能的新前沿](https://waytoagi.feishu.cn/wiki/FIHmwbZtZi9G5okmHjkc6nJLnUd?from=from_copylink)
-- [kimi.com](http://kimi.com/)
-- [蒸馏645篇文章，开源了这个公众号标题Skill！告别流量焦虑～](https://waytoagi.feishu.cn/wiki/AZhkwAzDZi2JcIkK1TZcdgegnub?from=from_copylink)
-- [WAIC即将开幕！全城Side Events打开小程序随时查](https://waytoagi.feishu.cn/wiki/Qq2UwaU9TiizRHkrFQEcB1SKnvG?from=from_copylink)
-- [wai](http://waic-guide.waytoagi.com/)
-- [wai](http://waic.waytoagi.com/)
+8.24—8.30｜本周顶级 AI 论文](https://waytoagi.feishu.cn/wiki/JCUfweUlhiAvrCkEonOcjGEsn9b?from=from_copylink)
+- [关于Product Hunt，你只需要这一篇终极指南就够了](https://waytoagi.feishu.cn/wiki/Q3k2w8uXsiBrGVkkOYccVzS0nrf?from=from_copylink)
+- [从 Microduck 的开放实践出发：怎样一步步做出一台小型机器人](https://waytoagi.feishu.cn/wiki/QJMMw2vXni4dFRkeEYXcf7pCnzc?from=from_copylink)
+- [万字长文 | 最强 AI 工作台 Cherry Studio 从入门到精通（含本地模型部署）](https://waytoagi.feishu.cn/wiki/BSclwtYzCiGFNuk01O8cN7HEnZg?from=from_copylink)
+- [小白AI入门必学的：66 个 AI 高频词（人话版）](https://waytoagi.feishu.cn/wiki/FjjPweRNHiVKE9kzu7mcwbmvnoI?from=from_copylink)
+- [OpenAI产品负责人：AI 能力已经过剩，很多人却还困在小目标里丨Lenny’s Podcast](https://waytoagi.feishu.cn/wiki/W7hJwjOoCiESI9kMwVzcqmrcnje?from=from_copylink)
+- [图解大语言模型部署](https://waytoagi.feishu.cn/wiki/AhyFwQxkYikUgtk4WzYc8mPNnme?from=from_copylink)
+- [吴恩达：AI最大的机遇并不在你想象的地方丨Silicon Valley Girl](https://waytoagi.feishu.cn/wiki/Uxx8woTKri5sPAkyfpEcOAU9nFg?from=from_copylink)
+- [第四次GEO公开课｜官网正在成为GEO主阵地：从企业事实到AI引用](https://waytoagi.feishu.cn/wiki/AMQ6woRYsiAEsdknDugcGGlQn7d?from=from_copylink)
+- [Warp 如何让 Agent 自我进化](https://waytoagi.feishu.cn/wiki/ImjdwSjdAiUosTkGgTTcX5jQnxd?from=from_copylink)
+- [WebMCP 详解](https://waytoagi.feishu.cn/wiki/FR9KwNj6ZiG23XkLEOTcsP4InGh?from=from_copylink)
+- [Codex 进阶应用教程：普通人最常用的 10 个工作场景](https://waytoagi.feishu.cn/wiki/SXPwwEYhRiBY9AkEwUWc22GmnFd?from=from_copylink)
+- [WorkBuddy 超保姆级入门教程-附图解实操 【万字长文】](https://waytoagi.feishu.cn/wiki/Y6ZewCbWhiEx5jkE53kcVgKTnQh?from=from_copylink)
+- [10 个 Skill 搭建日更爆文的公众号写作系统](https://waytoagi.feishu.cn/wiki/MfWUwQc6piE3aWk2B2kcsJ0unZg?from=from_copylink)
+- [KV、前缀、提示词与语义缓存：LLM 中四类缓存的清晰解析](https://waytoagi.feishu.cn/wiki/OHAPwy71RidXi5kMWYFchCDhnzb?from=from_copylink)
+- [一人公司做到数百万美元：从验证、产品到获客的完整系统丨Product Faculty](https://waytoagi.feishu.cn/wiki/KzqdwEd1piv3HgkxlZCcWcAgnog?from=from_copylink)
+- [吴恩达：AI 工程技能图谱：软件工程基础](https://waytoagi.feishu.cn/wiki/G3IwwW1AIibAqokzMUOcx1QHnif?from=from_copylink)
+- [AI 做海报、HTML 构图手册：16 种控制网格、图文关系与信息密度的海报构图——下册](https://waytoagi.feishu.cn/wiki/DPKZw4T8wiWN00kmewxcItRXnLD?from=from_copylink)
+- [万字长文 | Pi Agent 零基础实操：从打开终端到完成第一个真实任务](https://waytoagi.feishu.cn/wiki/FQ9RweSViibRb5k4kAacFgIznKg?from=from_copylink)
+- [万字长文｜Agent 从入门到精通（附实战：论文整理 Agent 搭建）](https://waytoagi.feishu.cn/wiki/JLDVw9Bqli57PJkvdMWcIxQonog?from=from_copylink)
+- [前Figma工程师是如何用 AI 进行设计的](https://waytoagi.feishu.cn/wiki/D3jewnaqRiFOzVkuAFRcCDwVnGg?from=from_copylink)
 - [blog.waytoagi.com](http://blog.waytoagi.com/)
-- [2026 年如何打造多模型 AI 团队](https://waytoagi.feishu.cn/wiki/ZARMwiAr8iymVAkOEjncZlgZnhg?from=from_copylink)
-- [Granola创始人：一家15亿美元AI公司，押注下一代工作方式丨Every](https://waytoagi.feishu.cn/wiki/BapowcCCciHb7pkEglUcaXD1nCd?from=from_copylink)
-- [宝玉的 字幕转录翻译剪辑 Skill —— BaoCut（仅支持 Mac）](https://waytoagi.feishu.cn/wiki/Fqgjw2i3tijO7ckpQp3cY6Punug?from=from_copylink)
-- [超适合收藏的AI人像生图合集：12种创意玩法一次打包（附提示词）](https://waytoagi.feishu.cn/wiki/D6GNw7RfFi7qnckOP0lcHVHknee?from=from_copylink)
-- [开源TODO Skill，我这三年用AI做知识管理和代办的经验都在这了](https://waytoagi.feishu.cn/wiki/Xy3nwD4YQiXlJhkwxXLcMruZnLb?from=from_copylink)
-- [用AI做了一个月视频，想跟你分享这套没人讲的心法](https://waytoagi.feishu.cn/wiki/DRK4waBfIi41B1k2eOLcpDbwnRY?from=from_copylink)
-- [YC设计负责人：AI 正在重写设计师的工作流丨Y Combinator](https://waytoagi.feishu.cn/wiki/Hkunwur2milsS5kBY0ucmKk9nAc?from=from_copylink)
-- [3个半月，从入驻X、组织GEO大会，到GitHub Star 10000+的全记录](https://waytoagi.feishu.cn/wiki/TmRaw01ZkiA5BQksjaPcpvLrnxb?from=from_copylink)
-- [如何让飞书真正替你干活？「AI绝活大会」干货替你整理好了](https://waytoagi.feishu.cn/wiki/GWNFwicAlioA6gkJwNxcVgqJnLf?from=from_copylink)
-- [我用 Codex + Remotion，做了一条唐朝纸片分层动画](https://waytoagi.feishu.cn/wiki/PDZtwSjt2iycuok37Ptckjgbnnd?from=from_copylink)
-- [RAG：从前世今生到技术全景](https://waytoagi.feishu.cn/wiki/LR6bwQwu3i1mCIkqd5vc1qHUnSc?from=from_copylink)
-- [这套 AI 第二大脑，会让你聪明到像开了挂丨Dan Martell](https://waytoagi.feishu.cn/wiki/RWnMwferyiTvQpkHT5Cc3y0pnPh?from=from_copylink)
+- [Tutti · VM 首发 ｜多人、多 Agents 协作的 Google docs 时刻](https://waytoagi.feishu.cn/wiki/H5s7w5iD8i4IsdkgZrJcn75ZnCf?from=from_copylink)
+- [这9个Skill，把我的图像审美拉到了一个新高度](https://waytoagi.feishu.cn/wiki/RpAHwVbImi6Q2HkvZ9qcPRMWnHg?from=from_copylink)
+- [一篇讲透Agent自进化飞轮怎么搭：评测→记忆→落地→控制](https://waytoagi.feishu.cn/wiki/RAmOw0hiqikA9ukMTxOcvv2Vnhf?from=from_copylink)
+- [万字长文：Deepseek Harness 一文全看懂！！](https://waytoagi.feishu.cn/wiki/Aj1rw6AyWiqFPGkEdTFcJglwnId?from=from_copylink)
+- [Anthropic 官方指南：AI Native 开发手册](https://waytoagi.feishu.cn/wiki/Epowwhkb2i0M5pkJ3HJcXCqZnHf?from=from_copylink)
+- [GLM-5.3-Flash：前沿智能进入普惠时代](https://waytoagi.feishu.cn/wiki/Bdx6wt9VziLbqIkM1L8cMDSJnXd?from=from_copylink)
+- [Hello Plugin：我把 DeepSeek Harness 插件开发全链路跑了一遍](https://waytoagi.feishu.cn/wiki/H3OMwxGJZiKB0HksfGBcfTgVndg?from=from_copylink)
+- [「豆包工作」+ 飞书完全指南](https://waytoagi.feishu.cn/wiki/XFzXweH7Biu9KKk7dWocZZNgnzO?from=from_copylink)
+- [AI 做海报、HTML构图手册：16 种控制焦点与动势的海报构图——上册（附样图和提示词）](https://waytoagi.feishu.cn/wiki/U6C3wpb9OiwXn9kngvkcwluGnSb?from=from_copylink)
+- [我扒完了 GitHub 上 55 个 AI 成片产线，得出一个结论](https://waytoagi.feishu.cn/wiki/ZEonw9QWdidPU4kcnP1cH1XpnTB?from=from_copylink)
+- [我的 AI 原生开发流程：一个真实案例的完整复盘](https://waytoagi.feishu.cn/wiki/XJEzwR5FGi60fuk9kVBcXeTOnah?from=from_copylink)
+- [《100 个问题》系列丛书](https://waytoagi.feishu.cn/wiki/YTt3wPPIeixEK5kbJPnc0YL7nTf?from=from_copylink)
+- [什么是Harness工程，为什么我要关心？](https://waytoagi.feishu.cn/wiki/MXIzwnvSaipysMkxX79crgfen3q?from=from_copylink)
+- [OpenClaw创始人：“乐趣就是速度”丨Y Combinator](https://waytoagi.feishu.cn/wiki/UNB4wK4XkiuChHksIBFcSZiBnNf?from=from_copylink)
+- [Fish Audio,Trans-n与PnP日本：日本AI是本地化与速度的接力赛｜Linkloud 东京沙龙实录（二）](https://waytoagi.feishu.cn/wiki/HlYnwNs2Oir8hrkN5oJc0K86nAb?from=from_copylink)
+- [AI音乐周刊 W.A 042](https://waytoagi.feishu.cn/wiki/MuEYwFlKfinkHmkbsd4caLgKnfd?from=from_copylink)
+- [出门不带电脑，也能随时调用家里的知识库：MacBook + Mac mini + iPhone 协同保姆级教程](https://waytoagi.feishu.cn/wiki/FdpgwFD4FiYtoSk9Y6ycKGs6nQd?from=from_copylink)
+- [一条可用视频到底要抽几次？我用3款模型对比了7组案例（附提示词）](https://waytoagi.feishu.cn/wiki/JkmnwcuzQiKXshkdhi4cWIl1nqe?from=from_copylink)
+- [有趣的小红书图文自动排版Skill，使用教程来喽！](https://waytoagi.feishu.cn/wiki/FQCHw2MzPidJsSkpijYclsSenre?from=from_copylink)
+- [诚邀您加入知识星球](https://t.zsxq.com/18DnZxlrl)
+- [合作与咨询](https://waytoagi.feishu.cn/wiki/Wj77wBWjbi0yUAkyJWdc2TKFnmd)
+- [AIGC 周刊](https://quail.ink/op7418/)
+- [野菩萨](https://www.xiaohongshu.com/user/profile/5513fe8ed39ea24fec6cf63b)
+- [AI 艺术探索者](https://mp.weixin.qq.com/s/V7qEudwKzZy1-vqiKz3xDg)
+- [麦橘](https://www.xiaohongshu.com/user/profile/61d141f100000000210230d1)
+- [三思](https://www.xiaohongshu.com/user/profile/5cfd0e600000000016029764)
+- [万能的小七姐](https://vxc3hj17dym.feishu.cn/wiki/RxnSw84QIiC63KkBrofc2altnuf?from=from_copylink)
+- [硬地骇客](https://hardhacker.com/)
+- [podwise 开发者](https://podwise.ai/)
+- [小互](https://weibo.com/u/1627825392)
+- [向阳乔木](https://www.qiaomu.pro/)
+- [orange](https://twitter.com/oran_ge)
+- [Web3 天空之城](https://space.bilibili.com/351754674)
+- [Ragnar 瑞哥那](https://a135e91cro.feishu.cn/docx/JGWRdRlCNoa2yTxFSIMciotwnqe?from=from_copylink)
+- [INDIGO TALK](https://www.xiaoyuzhoufm.com/podcast/62bbe7a66bad6a3c0c6222d3)
+- [云中江树](http://feishu.langgpt.ai/)
+- [白马少年](https://mp.weixin.qq.com/s/UrMoEdntEX_Be3b5rhNPlw)
+- [唐百万](https://www.xiaohongshu.com/user/profile/5bb4de8459b9bf0001947966)
