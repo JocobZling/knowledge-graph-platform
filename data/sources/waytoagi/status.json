@@ -1,10 +1,10 @@
 {
   "status": "success",
-  "fetched_at": "2026-10-21T12:41:44+08:00",
+  "fetched_at": "2026-10-21T12:51:25+08:00",
   "source_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e",
   "final_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e",
-  "method": "playwright",
+  "method": "playwright-virtualized-scroll",
   "response_status": 200,
-  "content_chars": 1236,
-  "content_sha256": "335022d7ba9aea35221f3a4cbdc6dc479e7230f6d6827520cac874038deac753"
+  "content_chars": 12198,
+  "content_sha256": "e86469d1100734b4ffc615e21866fd9007e96aef7e55060a6d50ce71c941523a"
 }
