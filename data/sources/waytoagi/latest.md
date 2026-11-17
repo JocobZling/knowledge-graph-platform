@@ -1,10 +1,10 @@
 ---
 title: "WayToAGI Source Cache"
-fetched_at: "2026-11-17T15:50:58+08:00"
+fetched_at: "2026-11-17T15:57:12+08:00"
 source_url: "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e"
 final_url: "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e"
 retrieval_method: "playwright"
-content_sha256: "9eeebbeb27aead2b0ea0a4da38f22eee55f2491195f567030488b4450bf63d48"
+content_sha256: "e12762f74599595bbd55766506cad740b419b8c80e5911e6dbc48f64cb8b2733"
 page_title: "通往AGI之路 - 飞书云文档"
 status: "success"
 ---
@@ -61,7 +61,7 @@ WaytoAGI
 通往AGI之路
 2023年4月26日创建
 3962690
-8009058
+8009060
 3298
 780
 🎯  愿景和目标
