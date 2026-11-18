@@ -1,10 +1,10 @@
 ---
 title: "WayToAGI Source Cache"
-fetched_at: "2026-11-17T15:57:12+08:00"
+fetched_at: "2026-11-18T15:21:41+08:00"
 source_url: "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e"
 final_url: "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e"
 retrieval_method: "playwright"
-content_sha256: "e12762f74599595bbd55766506cad740b419b8c80e5911e6dbc48f64cb8b2733"
+content_sha256: "7c7f7ef8fdcba70dabf45e87b912dd35f8d4e700037ba1d0d180e7e2e3cbb7ab"
 page_title: "通往AGI之路 - 飞书云文档"
 status: "success"
 ---
@@ -16,7 +16,7 @@ WaytoAGI
 🌈
 通往AGI之路
 
-最新修改时间为11月16日
+最新修改时间为11月18日
 
 登录/注册
 🌈
@@ -30,6 +30,8 @@ WaytoAGI
 📺直播共学
 🎡近期活动
 🎏 近 7 日更新日志
+11 月 18 日
+11 月 17 日
 11 月 16 日
 11 月 15 日
 11 月 14 日
@@ -37,7 +39,6 @@ WaytoAGI
 11 月 12 日
 11 月 11 日
 11 月 10 日
-11 月 9 日
 💬 飞书 & 微信交流群
 🏠加入WaytoAGI-填写后加入飞书/微信群
 🙏 友情推荐
@@ -60,9 +61,9 @@ WaytoAGI
 🌈
 通往AGI之路
 2023年4月26日创建
-3962690
-8009060
-3298
+3966423
+8015860
+3300
 780
 🎯  愿景和目标
 
@@ -136,6 +137,8 @@ WaytoAGI 品牌 VI
 - [📺直播共学](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#I1H6dKgDGoXgHcx4lRCcHU9jncf)
 - [🎡近期活动](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#MUANdAGHboyWAfxMhnVcOiFpn2d)
 - [🎏 近 7 日更新日志](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#ZweodGwa8oKukcxBhRncSEFCnlx)
+- [11 月 18 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#AxCrdrxrVos3eYxGKaXcaSPXnFb)
+- [11 月 17 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#ExmUdfpbJo0P4NxmK7qcxflHnOc)
 - [11 月 16 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#J9qzdzXzHoBTIlxqgC8csxM4nAf)
 - [11 月 15 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#GTokd1rmeo36nLxGZs4cakBCnNg)
 - [11 月 14 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#V50ldwrrPoCrBTxMYNUcc3Crn1g)
@@ -143,7 +146,6 @@ WaytoAGI 品牌 VI
 - [11 月 12 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#QBYAddeaeol9qXxGbPqc7bUYnue)
 - [11 月 11 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#K2mydFl5KoNDiPx0c47caXqTn5b)
 - [11 月 10 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#UzcydE76WoaIu8xm2thcJIVDnwc)
-- [11 月 9 日](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#ZSUCdtwLfoBxznxs1efclQ4onjh)
 - [💬 飞书 & 微信交流群](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#CgQrd8bYjoiCxsxTi8acMQDXnnd)
 - [🏠加入WaytoAGI-填写后加入飞书/微信群](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#NcbgdN9vaop6YVx7z7ucepcenEe)
 - [🙏 友情推荐](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e#OGQCdeCcVoelgmxq8ulcEnHDnvf)
